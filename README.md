@@ -1,4 +1,4 @@
-# ris kmap
+# Risk mapping
 
 ## codes
 - `updated_voyage.sql`: query for GFW data to clean up voyages 
