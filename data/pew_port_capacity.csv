@@ -1,0 +1,100 @@
+port,country,fishing_capacity_m3,carrier_capacity_m3,port_id
+Zhoushan, China,1.40E+07,1900000,p407
+Dongshan, China,1600000,130000,p53
+Quanzhou, China,1800000,42000,p309
+Xiamen, China,1.00E+06,78000,p311
+Qingdao, China,950000,760000,p68
+Busan, Republic of Korea,2300000,4600000,p507
+Dalian, China,1500000,2.00E+06,p205
+Hong Kong, China,730000,1.00E+05,p149
+Tromso, Norway,440000,25000,
+Batsfjord, Norway,2.00E+05,31000,p117
+Skagen Harbour, Denmark,270000,3.00E+05,
+Harlingen, Netherlands,160000,99000,
+Dakhla, Morocco,1100000,330000,
+Hanstholm, Denmark,190000,6400,p451
+Kaohsiung, Taiwan,920000,1400000,p701
+Suva, Fiji,210000,39000,p716
+Chimbote, Peru,850000,10000,p360
+Montevideo, Uruguay,460000,170000,p348
+Cape Town, South Africa,420000,330000,p231
+Majuro, Marshall Islands,1.00E+06,920000,p789
+Hirtshals, Denmark,110000,NA,p452
+Kirkenes, Norway,390000,260000,
+Nouadhibou, Mauritania,480000,690000,p344
+Port Louis, Mauritius,370000,510000,p345
+Shidaozhen, China,370000,310000,
+Alesund, Norway,3.00E+05,30000,
+Tema, Ghana,290000,840000,p352
+Dakar, Senegal,720000,150000,p285
+Thyboron Harbour, Denmark,110000,NA,
+Ijmuiden, Netherlands,270000,430000,
+Castletownbere Harbor, Ireland,99000,NA,
+A Coruna, Spain,110000,7700,
+Port Wladyslawowo, Poland,38000,NA,p126
+Vila Real De Santo Antonio, Portugal,72000,NA,
+Callao, Peru,480000,74000,p361
+Walvis Bay, Namibia,590000,620000,p129
+Vigo, Spain,81000,51000,
+Manta, Ecuador,830000,140000,p313
+Las Palmas, Spain,260000,2500000,
+Den Helder, Netherlands,57000,NA,
+Pohnpei Harbour, Micronesia,4.00E+05,820000,p331
+Hendaye, France,23000,0,
+Abidjan, Côte d'Ivoire,340000,1.00E+06,p312
+Aviles, Spain,70000,NA,
+Killybegs Harbor, Ireland,92000,17000,
+Port Of Le Havre, France,14000,NA,
+Runavik, Denmark,240000,360000,
+Eemshaven, Netherlands,24000,8400,
+Port Victoria, Seychelles,320000,3.00E+05,p672
+Punta Arenas, Chile,320000,34000,p46
+Nekso, Denmark,80000,NA,
+Betio, Kiribati,250000,570000,
+Rabaul, Papua New Guinea,190000,910000,p709
+Pasajes, Spain,28000,NA,
+Cuxport, Germany,19000,3200,
+Marsaxlokk, Malta,29000,110000,p496
+Honiara, Solomon Islands,160000,270000,p730
+Pago-Pago, United States of America,150000,58000,p300
+Panama, Panama,180000,720000,
+Stanley Harbour, United Kingdom of Great Britain and Northern Ireland,190000,190000,
+Luanda, Angola,42000,180000,
+Conakry, Guinea,86000,34000,p296
+Funafuti, Tuvalu,190000,540000,p702
+Shimizu, Japan,71000,610000,
+Poti, Georgia,54000,NA,
+Puerto De Viveiro, Spain,21000,NA,
+Paita, Peru,85000,580000,p293
+Porto Grande, Cabo Verde,65000,130000,
+Boulogne-Sur-Mer, France,16000,NA,
+Lenadura, Chile,180000,NA,
+Cristobal, Panama,28000,930000,
+Pulau Bukom, Singapore,140000,320000,
+Durban, South Africa,40000,140000,p204
+Papeete, France,43000,36000,
+Jurong Port, Singapore,60000,82000,
+Port Harcourt, Nigeria,23000,180000,p269
+Malakal Harbor, Palau,18000,NA,
+Bangkok, Thailand,24000,830000,
+Porto Da Horta, Portugal,8900,NA,
+Moji Ko, Japan,62000,18000,
+Milford Haven, United Kingdom of Great Britain and Northern Ireland,12000,NA,
+Sillamae - Silport, Estonia,110000,630000,
+Apia, Samoa,18000,NA,p731
+Douala, Cameroon,26000,520000,p252
+Maniitsoq, Denmark,28000,NA,p470
+Freetown, Sierra Leone,49000,52000,p154
+Singapore, Singapore,8800,640000,
+Gibraltar, United Kingdom of Great Britain and Northern Ireland,53000,370000,
+Beira, Mozambique,13000,81000,
+Posorja, Ecuador,82000,81000,
+Pointe Noire, Congo,45000,45000,
+Lagos, Nigeria,19000,170000,p266
+Lome, Togo,19000,440000,p19
+Sayda, Lebanon,13000,0,
+Larache Port, Morocco,3800,5200,
+Rathmullan, Ireland,1900,NA,
+Puerto De Ensenada, Mexico,4500,10000,p139
+Ribeira, Spain,6300,20000,
+Jose D. Leon Guerrero Commercial Port (aka Apra Harbor), United States of America,8800,480,
