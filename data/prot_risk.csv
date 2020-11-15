@@ -1,0 +1,793 @@
+not_associated,la_low,la_med,la_high,iuu_low,iuu_med,iuu_high,country,port,lat,lon,port_id
+0,1,0,0,1,0,0,American Samoa and Guam,"Apra harbour, Guam",13.4533,144.6535,p158
+0,1,0,0,0,1,0,American Samoa and Guam,"Pago pago, American Samoa",-14.2812,-170.6909,p300
+0,1,0,0,1,0,0,Antigua & Barbuda,Saint John's Harbour,17.1228,-61.8536,p159
+1,0,0,0,0,0,0,Argentina,Bahia Blanca,-38.78944192,-62.27320344,p369
+1,0,1,0,0,1,0,Argentina,Buenos Aires,-34.5992,-58.3714,p715
+0,1,0,0,1,0,0,Argentina,Comodoro Rivadavia,-45.8558,-67.4656,p160
+1,0,0,0,0,0,0,Argentina,Fray Bentos,-33.1167,-58.3167,p370
+1,0,0,0,0,0,0,Argentina,La Plata,-34.8553,-57.8942,p371
+0,0,0,0,0,1,0,Argentina,Mar Del Plata,-38.0428,-57.5333,p234
+1,0,0,0,0,0,0,Argentina,Puerto Belgrano,-38.8944,-62.1014,p372
+1,0,0,0,0,0,0,Argentina,Puerto Coronel Rosales,-38.9239,-62.0725,p373
+0,0,1,0,0,2,0,Argentina,Puerto Deseado,-47.7556,-65.9064,p333
+1,0,0,0,0,0,0,Argentina,Puerto Galvan,-38.7831,-62.3008,p374
+1,0,0,0,0,0,0,Argentina,Puerto Ingeniero White,-38.7919,-62.2656,p375
+0,0,1,0,0,2,0,Argentina,Puerto Madryn,-42.7361,-65.0333,p334
+1,0,0,0,0,0,0,Argentina,Puerto Nacional,-38.78890773,-62.28517188,p376
+0,0,1,0,0,2,0,Argentina,Puerto Rio Gallegos,-51.606951,-69.01917399999999,p335
+0,0,0,0,0,1,0,Argentina,Puerto San Julian,-49.2997,-67.7203,p235
+0,0,0,0,0,1,0,Argentina,Puerto Santa Cruz,-50.0197,-68.52,p236
+1,0,0,0,0,0,0,Argentina,Quequen,-38.5756,-58.7172,p377
+1,0,0,0,0,0,0,Argentina,Rio Grande,-53.7944,-67.7039,p378
+1,0,0,0,0,0,0,Argentina,San Blas,-40.5667,-62.2333,p379
+1,0,0,0,0,0,0,Argentina,San Sebastian,-53.273167,-68.21200400000001,p380
+1,0,0,0,0,1,0,Argentina,Ushuaia,-54.8094,-68.3014,p711
+1,0,0,0,0,0,0,Australia,Albany,-35.0317,117.8886,p381
+0,1,0,0,0,1,0,Australia,Darwin,-12.4703,130.8578,p301
+1,0,0,0,0,0,0,Australia,Fremantle,-32.0475,115.7408,p382
+1,0,0,0,0,0,0,Bahamas,Freeport,26.5244,-78.7669,p383
+1,0,0,0,0,0,0,Bahamas,Nassau,25.0767,-77.3239,p384
+0,1,0,0,0,0,1,Bangladesh,Chittagong,22.2689,91.8311,p197
+2,0,0,0,0,0,0,Barbados,Bridgetown,13.1069,-59.6283,p732
+0,0,1,0,0,0,1,Benin,Cotonou,6.3467,2.4256,p146
+1,0,0,0,0,0,0,Bermuda,Freeport,32.3242,-64.835,p385
+1,0,0,0,0,0,0,Bermuda,Hamilton,32.2911,-64.7819,p386
+1,0,0,0,0,0,0,Bermuda,St. George's,32.3794,-64.6767,p387
+0,0,0,0,0,1,0,Brazil,Belem,-1.4517,-48.4856,p237
+0,0,0,0,0,0,1,Brazil,Itajai,-26.89722204,-48.67013634,p44
+0,0,0,0,0,1,0,Brazil,Natal,-5.7667,-35.2,p238
+0,0,1,0,1,0,0,Brazil,Rio De Janeiro,-22.8831,-43.1967,p32
+1,0,0,0,0,0,0,British Virgin Islands,Purcell,18.4214,-64.6111,p388
+1,0,0,0,0,0,0,British Virgin Islands,Virgin Gorda,18.49819032,-64.37447093,p389
+0,0,2,0,0,0,2,Cambodia,Duong Dong,10.2167,103.9667,p151
+0,0,1,0,0,0,1,Cambodia,Hat Lek,11.689,102.9061,p131
+1,0,0,0,0,0,0,Cambodia,Phsar Ream,10.5,103.6,p390
+0,0,1,0,0,1,0,Cameroon,Douala,4.0575,9.6889,p252
+0,0,1,0,0,1,0,Cameroon,Ebome Marine Terminal,2.818387,9.837326,p253
+0,0,1,0,0,1,0,Cameroon,Kome Kribi 1 Marine Terminal,2.9167,9.8,p254
+0,0,1,0,0,1,0,Cameroon,Limboh Terminal,3.9833,9.15,p255
+0,0,1,0,0,1,0,Cameroon,Luba,3.5,8.5667,p256
+0,0,1,0,0,1,0,Cameroon,Malabo,3.75,8.7833,p257
+0,0,1,0,0,1,0,Cameroon,Punta Europa Terminal,3.7833,8.7167,p258
+1,0,0,0,0,0,0,Canada,"Argentia, NL",47.2931,-53.9889,p391
+1,0,0,0,0,0,0,Canada,"Bay Roberts, NL",47.5889,-53.2647,p392
+1,0,0,0,0,0,0,Canada,"Harbour Grace, NL",47.6903,-53.2172,p393
+1,0,0,0,0,0,0,Canada,"Lower West Pubnico, NS",43.6339,-65.8008,p394
+1,0,0,0,0,0,0,Canada,"Point Edward, BC",54.2333,-130.2833,p395
+1,0,0,0,0,0,0,Canada,"Port Hardy, BC",50.7211,-127.4839,p396
+1,1,0,0,0,0,1,Canada,"Prince Rupert, BC",54.3097,-130.3392,p705
+1,0,0,0,0,0,0,Canada,"Renard, QC",48.9917,-64.3833,p397
+1,0,0,0,0,0,0,Canada,"Richmond, BC",49.1997,-123.1342,p398
+1,0,0,0,0,0,0,Canada,"Shelburne, NS",43.7497,-65.3183,p399
+1,0,0,0,0,0,0,Canada,"Shippegan, NB",47.7467,-64.7033,p400
+1,0,0,0,0,0,0,Canada,"St. Anthony, NL",51.3617,-55.5769,p401
+2,0,0,0,0,0,0,Canada,"St. John's, NL",47.5625,-52.6975,p733
+1,0,0,0,0,0,0,Canada,"Tignish, PE",46.9534,-64.0011,p402
+1,0,0,0,0,0,0,Canada,"Ucluelet, BC",48.95,-125.55,p403
+2,0,0,0,0,0,0,Canada,"Vancouver, BC",49.29589133,-123.0663503,p734
+2,0,0,0,0,0,0,Canada,"Woods Harbour, NS",43.5414,-65.7333,p735
+1,0,0,0,0,0,0,Canada,"Yarmouth, NS",43.8356,-66.1233,p404
+1,0,0,0,0,0,0,Cayman Islands,Cayman Brac,19.7453,-79.7675,p405
+1,0,0,0,0,0,0,Cayman Islands,George Town,19.2997,-81.385,p406
+0,0,1,0,0,1,0,Chile,Aysen,-45.4,-72.6833,p259
+0,0,0,0,0,1,0,Chile,Calbuco,-41.787228999999996,-73.18624799999999,p239
+0,0,0,0,0,1,0,Chile,Caldera,-27.0553,-70.8314,p240
+1,0,0,0,0,1,0,Chile,Coronel,-37.0283,-73.1553,p712
+0,0,0,0,0,0,1,Chile,Corral,-39.8854,-73.4248,p45
+0,0,0,0,0,1,0,Chile,Iquique,-20.2028,-70.1528,p241
+0,0,0,0,1,0,0,Chile,Mejillones,-23.0878,-70.4156,p1
+0,0,0,1,0,0,1,Chile,Punta Arenas,-53.1683,-70.9075,p46
+0,0,0,0,0,0,2,Chile,San Vicente,-36.7292,-73.1378,p148
+0,0,0,0,0,0,1,Chile,Talcahuano,-36.7053,-73.1036,p47
+1,0,0,0,0,0,1,China,Basuo,19.1033,108.6231,p669
+1,0,0,0,0,0,1,China,Bayuquan,19.1033,122.0833,p670
+0,1,0,0,1,0,1,China,Beihai,21.4586,109.0728,p198
+0,0,0,0,0,0,1,China,Changshu,31.7619,120.9611,p48
+0,0,1,0,0,1,1,China,Changzhou,31.9619,120.0175,p288
+0,0,0,0,0,0,1,China,Chaozhou,23.583554,117.040733,p49
+0,0,0,0,0,0,1,China,Cheng,21.60182809,108.368975,p50
+0,0,0,0,0,0,1,China,Chiwan,22.4739,113.8739,p51
+0,0,0,0,0,0,1,China,Dagu Tanggu,38.966667,117.6667,p52
+0,1,1,0,1,0,1,China,Dalian,38.9336,121.6506,p205
+0,0,0,0,0,0,1,China,Dongshan,23.7467,117.5161,p53
+0,0,0,0,0,0,1,China,Haikou,20.0278,110.2797,p54
+0,0,0,0,0,0,1,China,Haimen,28.6903,121.4467,p55
+0,0,0,0,0,0,2,China,Hong Kong,22.2667,114.2,p149
+0,0,0,0,0,0,1,China,Huangpu,23.085303,113.39118899999998,p56
+0,0,0,0,0,0,1,China,Huangpuxingang,23.05,113.5,p57
+0,0,1,0,0,0,1,China,Huizhou,22.6978,114.5625,p147
+0,0,0,0,0,0,1,China,Huludao Gang,40.7,120.9833,p58
+0,0,0,0,0,0,1,China,Jiangyin,31.91074716,120.253497,p59
+0,0,0,0,0,0,1,China,Jinzhou Wan,40.8069,121.0608,p60
+0,0,0,0,0,0,1,China,Lianyungang,34.7453,119.4133,p61
+0,0,0,0,0,0,1,China,Lon Shui Terminal,20.8333,115.6833,p62
+0,0,0,0,0,0,1,China,Longkou Gang,37.6475,120.3097,p63
+0,0,0,0,0,0,1,China,Lushun,38.964101,121.065306,p64
+0,0,0,0,0,0,1,China,Macau,22.1833,113.5667,p65
+0,0,0,0,0,0,1,China,Nantong,31.9922,120.8294,p66
+0,0,0,0,0,0,1,China,Penglai,37.8169,120.8317,p67
+0,0,0,0,0,0,1,China,Qingdao Gang,36.0958,120.3172,p68
+0,0,1,0,0,0,1,China,Qinhuangdao,39.9183,119.6294,p132
+0,0,0,0,0,0,1,China,Qinzhou,21.6994,108.6133,p69
+0,1,0,0,0,1,1,China,Quanzhou,24.870931,118.63676299999999,p309
+0,0,0,0,0,0,1,China,Rizhao,35.3731,119.5494,p70
+0,1,0,0,1,0,2,China,Sanya,18.2397,109.5008,p219
+0,0,0,0,0,0,1,China,Shantou,23.3547,116.7064,p71
+0,0,0,0,0,0,1,China,Shekou,22.4708,113.9033,p72
+0,0,0,0,0,0,1,China,Shui Dong,21.4792,111.0728,p73
+0,0,0,0,0,0,1,China,Taicang,31.6583,121.1856,p74
+0,0,0,0,0,0,1,China,Tangshan (Jingtang),39.1953,119.0033,p75
+0,0,0,0,0,0,1,China,Tianjin Xin Gang,39.0,117.7,p76
+0,0,0,0,0,0,1,China,Weihai,37.5058,122.125,p77
+0,1,0,0,0,1,1,China,Wenzhou,27.9878,120.8906,p310
+0,1,0,0,0,1,1,China,Xiamen,24.45,118.0219,p311
+0,1,1,0,1,0,0,China,Yantai,37.5711,121.3922,p196
+0,0,0,1,0,0,0,China,Zhangzhou,23.74510208,117.58746609999999,p2
+1,0,0,0,0,0,0,China,Zhoushan,30.0033,122.1042,p407
+1,0,0,0,0,0,0,Comoros,Moroni,-11.7014,43.2489,p408
+1,0,0,0,0,0,0,Comoros,Mutsamudu,-12.1672,44.3919,p409
+1,0,0,0,0,0,0,Cook Islands,Avatiu,-21.2036,-159.7853,p410
+0,0,2,0,0,2,1,Costa Rica,Golfito,8.6378,-83.1667,p342
+0,0,2,0,0,2,1,Costa Rica,Puerto Caldera,9.919866,-84.754836,p343
+0,0,1,0,1,1,1,Costa Rica,Puerto Limon,9.9894,-83.0247,p289
+0,0,2,0,0,1,1,Costa Rica,Puerto Moin,10.0058,-83.0778,p284
+0,0,2,0,0,3,1,Costa Rica,Puerto Quepos,9.4247,-84.1708,p359
+0,1,1,1,0,1,3,Costa Rica,Puntarenas,9.9817,-84.8067,p324
+1,0,0,0,0,0,0,Croatia,Bakar,45.2997,14.545,p411
+1,0,0,0,0,0,0,Croatia,Brsica,45.02269357,14.05227706,p412
+1,0,0,0,0,0,0,Croatia,Dubrovnik,42.66,18.0819,p413
+1,0,0,0,0,0,0,Croatia,Dugi Rat,43.4419,16.6386,p414
+1,0,0,0,0,0,0,Croatia,Korcula,42.96,17.1361,p415
+1,0,0,0,0,0,0,Croatia,Luka Umag,45.4344,13.5183,p416
+1,0,0,0,0,0,0,Croatia,Neum,42.9167,17.6,p417
+1,0,0,0,0,0,0,Croatia,Omisalj,45.2144,14.5431,p418
+1,0,0,0,0,0,0,Croatia,Piran,45.5333,13.5667,p419
+1,0,0,0,0,0,0,Croatia,Ploce,43.0428,17.43,p420
+1,0,0,0,0,0,0,Croatia,Pula,44.8717,13.8356,p421
+1,0,0,0,0,0,0,Croatia,Rasa,45.0256,14.0528,p422
+1,0,0,0,0,0,0,Croatia,Rijeka Luka,45.3275,14.4256,p423
+1,0,0,0,0,0,0,Croatia,Rovinj,45.0806,13.6358,p424
+1,0,0,0,0,0,0,Croatia,Senj,44.9911,14.8994,p425
+1,0,0,0,0,0,0,Croatia,Sibenik,43.7264,15.8964,p426
+1,0,0,0,0,0,0,Croatia,Split,43.515,16.4306,p427
+1,0,0,0,0,0,0,Croatia,Zadar,44.1175,15.2208,p428
+1,0,0,0,0,0,0,Cuba,Bahai De La Habana,23.1325,-82.3419,p429
+1,0,0,0,0,0,0,Cuba,Santiago De Cuba,20.0017,-75.8606,p430
+0,1,0,0,0,1,1,Côte d'Ivoire,Abidjan,5.2806,-4.0144,p312
+0,1,0,0,0,0,0,Côte d'Ivoire,Port Bouet,5.2331,-3.9667,p161
+0,1,0,0,0,0,0,Côte d'Ivoire,San Pedro,4.7422,-6.6158,p162
+1,0,0,0,0,0,0,Denmark and Greenland,Aabenraa,55.0411,9.4272,p431
+1,0,0,0,0,0,0,Denmark and Greenland,Aarhus,56.1525,10.2281,p432
+1,0,0,0,0,0,0,Denmark and Greenland,Aasiaat,68.7089,-52.8739,p433
+1,0,0,0,0,0,0,Denmark and Greenland,Assens,55.2692,9.8853,p434
+1,0,0,0,0,0,0,Denmark and Greenland,Attu,67.95,-53.7333,p435
+1,0,0,0,0,0,0,Denmark and Greenland,Bandholm,54.8375,11.49,p436
+1,0,0,0,0,0,0,Denmark and Greenland,Ensted,55.0228,9.4392,p437
+1,0,0,0,0,0,0,Denmark and Greenland,Esbjerg,55.4656,8.4342,p438
+1,0,0,0,0,0,0,Denmark and Greenland,Faaborg,55.0953,10.2347,p439
+1,0,0,0,0,0,0,Denmark and Greenland,Fakse Ladeplads Havn,55.2139,12.1625,p440
+1,0,0,0,0,0,0,Denmark and Greenland,Fredericia,55.5581,9.7447,p441
+1,0,0,0,0,0,0,Denmark and Greenland,Frederikshavn,57.4378,10.5461,p442
+1,0,0,0,0,0,0,Denmark and Greenland,Frederikssund,55.8319,12.0536,p443
+1,0,0,0,0,0,0,Denmark and Greenland,Frederiksvaerk,55.9617,12.0122,p444
+1,0,0,0,0,0,0,Denmark and Greenland,Grenaa Havn,56.4136,10.9289,p445
+1,0,0,0,0,0,0,Denmark and Greenland,Gronnedal (Kangilinnguit),61.2356,-48.1014,p446
+1,0,0,0,0,0,0,Denmark and Greenland,Gulfhavn,55.2008,11.2533,p447
+1,0,0,0,0,0,0,Denmark and Greenland,Haderslev,55.2511,9.5069,p448
+1,0,0,0,0,0,0,Denmark and Greenland,Hadsund,56.7136,10.1172,p449
+1,0,0,0,0,0,0,Denmark and Greenland,Hals,56.9875,10.3067,p450
+1,0,0,0,0,0,0,Denmark and Greenland,Hanstholm,57.1214,8.5964,p451
+1,0,0,0,0,0,0,Denmark and Greenland,Hirtshals,57.595,9.9689,p452
+1,0,0,0,0,0,0,Denmark and Greenland,Holbaek,55.7208,11.7139,p453
+1,0,0,0,0,0,0,Denmark and Greenland,Horsens,55.8542,9.8694,p454
+1,0,0,0,0,0,0,Denmark and Greenland,Hundested,55.9619,11.8467,p455
+1,0,0,0,0,0,0,Denmark and Greenland,Illulissat (Jakobshavn),69.2217,-51.0942,p456
+1,0,0,0,0,0,0,Denmark and Greenland,Kajalleq Upernavik,72.15,-55.5333,p457
+1,0,0,0,0,0,0,Denmark and Greenland,Kalundborg,55.6694,11.0875,p458
+1,0,0,0,0,0,0,Denmark and Greenland,Kangamiut,65.8167,-53.3,p459
+1,0,0,0,0,0,0,Denmark and Greenland,Kangerluarsoruseq,63.7,-51.55,p460
+1,0,0,0,0,0,0,Denmark and Greenland,Kangerlusuaq,66.9667,-50.95,p461
+1,0,0,0,0,0,0,Denmark and Greenland,Kerteminde,55.4514,10.6653,p462
+1,0,0,0,0,0,0,Denmark and Greenland,Kobenhavn,55.7,12.6167,p463
+1,0,0,0,0,0,0,Denmark and Greenland,Koge,55.4547,12.1958,p464
+1,0,0,0,0,0,0,Denmark and Greenland,Kolding,55.4928,9.4992,p465
+1,0,0,0,0,0,0,Denmark and Greenland,Korsor,55.3322,11.1369,p466
+1,0,0,0,0,0,0,Denmark and Greenland,Kusanartoq,61.7667,-42.2167,p467
+1,0,0,0,0,0,0,Denmark and Greenland,Kyndbyvaerkets Havn,55.8167,11.8833,p468
+1,0,0,0,0,0,0,Denmark and Greenland,Lemvig,56.5528,8.3042,p469
+1,0,0,0,0,0,0,Denmark and Greenland,Maniitsoq,65.4117,-52.8992,p470
+1,0,0,0,0,0,0,Denmark and Greenland,Middelfart,55.5064,9.7322,p471
+1,0,0,0,0,0,0,Denmark and Greenland,Naestved,55.225,11.7547,p472
+1,0,0,0,0,0,0,Denmark and Greenland,Nakskov,54.8322,11.1236,p473
+1,0,0,0,0,0,0,Denmark and Greenland,Nanortalik Havn,60.1397,-45.2408,p474
+1,0,0,0,0,0,0,Denmark and Greenland,Narsaq,60.9086,-46.0519,p475
+1,0,0,0,0,0,0,Denmark and Greenland,Narsarssuaq,61.145,-45.4342,p476
+1,0,0,0,0,0,0,Denmark and Greenland,Niaqornat,70.8,-53.6667,p477
+1,0,0,0,0,0,0,Denmark and Greenland,Nuuk,64.1725,-51.7231,p478
+1,0,0,0,0,0,0,Denmark and Greenland,Stuer,56.5,8.5833,p479
+1,0,0,0,0,0,0,Dominican Republic,La Romana,18.4164,-68.9597,p480
+1,0,0,0,0,0,0,Dominican Republic,Puerto Plata,19.8036,-70.7008,p481
+1,0,0,0,0,0,0,Dominican Republic,San Pedro De Macoris,18.4464,-69.3117,p482
+1,0,0,0,0,0,0,Dominican Republic,Santa Barbara De Samana,19.2,-69.3333,p483
+1,0,0,0,0,0,0,Dominican Republic,Santa Cruz De Barahona,18.2,-71.0833,p484
+1,0,0,0,0,0,0,Dominican Republic,Santo Domingo,18.4753,-69.8811,p485
+1,0,0,0,0,0,0,Ecuador,Esmeraldas,0.9894,-79.6481,p486
+1,0,0,0,0,0,0,Ecuador,Guayaquil,-2.2783668169999998,-79.91237727,p487
+0,1,0,0,0,1,1,Ecuador,Manta,-0.9356,-80.7233,p313
+1,0,0,0,0,0,0,Ecuador,Puerto Maritimo De Guayaquil,-2.2833,-79.9,p488
+0,1,0,0,1,0,0,Equatorial Guinea,Bata,1.8242,9.7408,p163
+0,1,0,0,1,0,0,Equatorial Guinea,Cogo,1.0833,9.6917,p164
+1,0,1,1,0,1,1,Falklands,Port Argentina,-51.6977,-57.8517,p724
+1,0,0,0,0,0,0,Faroe Islands,Fuglafjordur,62.2383,-6.8094,p489
+1,0,0,0,0,0,0,Faroe Islands,Kongshavn,62.1111,-6.7269,p364
+1,0,0,0,0,0,0,Faroe Islands,Thorshavn,62.0056,-6.7683,p365
+1,0,0,0,0,0,0,Faroe Islands,Tvoroyri,61.5525,-6.8128,p366
+0,2,0,0,0,0,1,Federated States of Micronesia,Chuuk,7.445102,151.839393,p228
+0,2,0,0,0,0,1,Federated States of Micronesia,Kosrae,5.350239,162.956728,p229
+0,3,0,0,0,1,1,Federated States of Micronesia,Ponphei,6.9806,158.2014,p331
+0,3,0,0,1,0,1,Federated States of Micronesia,Yap,9.5133,138.1211,p233
+2,0,0,0,0,0,0,Fiji,Lambasa,-16.3619,179.3633,p736
+2,0,0,0,0,0,0,Fiji,Lautoka Harbor,-17.6058,177.4389,p737
+1,0,0,0,0,1,0,Fiji,Levuka,-17.6864,178.8372,p713
+1,0,0,0,0,0,0,Fiji,Malai,-16.35956005,179.3662015,p490
+1,0,0,0,0,0,0,Fiji,Malau,-16.35,179.3667,p491
+2,0,0,0,0,0,0,Fiji,Rotuma,-12.5167,177.1333,p738
+1,0,0,0,0,0,0,Fiji,Savusavu,-16.7778,179.3328,p492
+1,0,1,0,0,1,0,Fiji,Suva,-18.1269,178.4261,p716
+1,0,0,0,0,0,0,French Guiana,Port of Degrad des Cannes,4.8531,-52.275,p493
+1,0,0,0,0,0,0,Gabon,Cap Lopez,-0.6333,8.7167,p494
+1,0,0,0,0,0,0,Gabon,Gamba Oil Terminal,-2.857079,9.970331,p495
+0,0,1,0,0,1,0,Gabon,Libreville,0.35509556,9.470179032,p260
+0,0,1,0,0,1,0,Gabon,Port Owendo,0.2883,9.5014,p261
+0,0,1,1,0,1,1,Gambia,Banjul,13.4444,-16.5725,p290
+0,1,1,0,0,1,1,Ghana,Saltpond,5.1967,-1.0531,p316
+0,1,1,0,0,1,1,Ghana,Sekondi,4.95,-1.7,p317
+0,1,2,0,1,2,1,Ghana,Takoradi,4.8842,-1.7414,p350
+0,2,5,0,0,2,4,Ghana,Tema,5.6319,0.0117,p352
+2,0,0,0,0,0,1,Grenada,St. George's,12.0472,-61.7508,p772
+0,0,1,2,0,1,2,Guinea,Benti,9.1667,-13.2,p295
+0,0,1,2,0,1,2,Guinea,Conakry,9.5164,-13.7156,p296
+0,0,1,2,0,1,2,Guinea,Kamsar,10.6456,-14.62,p297
+0,0,1,3,0,1,3,Guinea,Victoria,10.752696,-14.584973000000002,p299
+0,0,1,2,0,0,3,Guinea-Bissau,Bissau,11.8583,-15.5761,p156
+0,1,1,2,0,0,4,Guinea-Bissau,Rio Cacheu,12.2833,-16.2333,p223
+0,0,0,0,0,1,0,Guyana,Georgetown,6.8194,-58.1675,p242
+0,0,0,0,0,0,1,India,Azhikal (Azhikkal),11.9439,75.31,p78
+0,0,0,0,0,0,1,India,Bedi,22.5483,70.0308,p79
+0,0,0,0,0,0,1,India,Belekeri,14.7078,74.2569,p80
+0,0,0,0,0,0,1,India,Beypore,11.6622,75.5489,p81
+0,0,0,0,0,0,1,India,Bhavnagar,21.77,72.2094,p82
+0,0,1,0,0,0,1,India,Calicut (Kozhikode),11.166278,75.80794300000001,p133
+0,0,0,1,0,0,1,India,Chennai (Madras),13.1111,80.3008,p83
+0,0,1,0,0,0,1,India,Cuddalore,11.7083,79.7775,p134
+0,0,0,0,0,0,1,India,Dahej,21.6614,72.5625,p84
+0,0,0,0,0,0,1,India,Haldia Port,22.0369,88.0983,p85
+0,0,0,0,0,0,1,India,Hazira,21.0833,72.6333,p86
+0,0,0,0,0,0,1,India,"Hut Bay, Little Andaman",10.5883,92.5588,p87
+0,0,0,0,0,0,1,India,Jawaharlal Nehru Port (Nhava Shiva),18.9517,72.9497,p88
+0,0,0,0,0,0,1,India,Kakinada Bay,16.9778,82.2792,p89
+0,0,0,0,0,0,1,India,Kamarajar Port,13.2667,80.3167,p90
+0,0,0,0,0,0,1,India,Kandla,23.0136,70.2256,p91
+0,0,0,0,0,0,1,India,Karaikal Port,10.8333,79.8667,p92
+0,1,0,0,0,0,1,India,Karwar,14.8017,74.1161,p199
+0,0,1,0,0,0,1,India,Kochi (Cochin),9.9678,76.2572,p135
+0,0,0,0,0,0,1,India,Kolachel,8.1667,77.25,p93
+0,0,1,0,0,0,1,India,Machilipatnam,16.145,81.1817,p136
+0,0,0,0,0,0,1,India,Magdalla,21.1408,72.7406,p94
+0,0,0,0,0,0,1,India,Mandvi,22.8269,69.3531,p95
+0,0,0,0,0,0,1,India,Marmagao,15.4333,73.8,p96
+0,0,0,0,0,0,1,India,Mumbai (Bombay),18.9667,72.8667,p97
+0,1,1,0,0,1,2,India,Nagappattinam,10.7667,79.85,p323
+0,0,0,0,0,0,1,India,New Mangalore,12.9167,74.8167,p98
+0,0,0,0,0,0,1,India,Okha,22.4719,69.0814,p99
+0,0,0,0,0,0,1,India,Panaji,15.4922,73.8161,p100
+0,2,0,0,1,0,1,India,Paradip,20.2706,86.6711,p230
+0,0,0,0,0,0,1,India,Pipavav Bandar,20.9189,71.5042,p101
+0,0,1,0,0,0,1,India,Pondicherry,11.9142,79.8256,p137
+0,0,0,0,0,0,1,India,Porbandar,21.6347,69.5917,p102
+0,0,0,1,0,0,1,India,Port Blair,11.6722,92.7281,p103
+0,0,0,0,0,0,1,India,Quilon (Kollam),8.8833,76.5833,p104
+0,0,0,0,0,0,1,India,Rameshwaram,9.325,79.33,p105
+0,0,0,0,0,0,1,India,Ratnagiri,17.0019,73.2747,p106
+0,0,0,0,0,0,1,India,Sikka,22.43352364,69.82002984,p107
+0,0,1,0,0,0,1,India,Trivandrum,8.376018,76.988851,p138
+0,1,1,0,0,1,1,India,Tuticorin,8.801756656,78.15968167,p318
+0,0,0,0,0,0,1,India,Vadinar Terminal,22.5167,69.7,p108
+0,0,0,0,0,0,1,India,Veraval,20.9022,70.3761,p109
+0,1,1,0,1,0,1,India,Vishakhapatnam,17.6933,83.2894,p206
+0,0,1,2,0,1,2,Indonesia,Ambon,-3.6961,128.1714,p727
+0,0,0,1,0,0,0,Indonesia,Bandung,0.5331,103.2831,p3
+0,0,0,1,0,0,0,Indonesia,Batam,1.1299,104.0503,p4
+0,0,0,3,0,0,2,Indonesia,Benjina,-6.0719,134.2658,p150
+0,1,0,1,1,0,0,Indonesia,Bitung,1.4381,125.1836,p165
+0,1,0,0,1,0,0,Indonesia,Jayapura,-2.526917027,140.7266706,p166
+0,0,0,0,0,0,1,Indonesia,Tarakan,3.2908,117.5878,p110
+0,0,0,2,1,0,0,Ireland,Cork,51.9011,-8.4289,p5
+0,0,0,1,1,0,0,Ireland,Galway,53.27,-9.0497,p6
+0,0,0,1,0,0,0,Ireland,Wexford,52.3411,-6.4597,p7
+0,0,0,0,0,0,1,Italy,Aci Trezza,37.5608,15.1536,p111
+0,0,0,0,0,0,1,Italy,Cefalù,38.0333,14.0167,p112
+1,0,0,0,0,0,0,Italy,Marsaxlokk,37.6483,12.5825,p496
+0,0,0,0,0,0,1,Italy,Porticello,38.0875,13.5395,p113
+0,0,0,0,0,0,1,Italy,Porto Di Palermo,38.1308,13.3717,p114
+0,0,0,0,0,0,1,Italy,Sant Agata,38.0667,14.6333,p115
+1,0,0,0,0,0,0,Italy,Trapani,38.0136,12.5061,p497
+0,1,0,0,0,1,0,Jamaica,Black River,18.0225,-77.8467,p302
+0,1,0,0,0,0,0,Jamaica,Kingston,17.9817,-76.8294,p167
+0,1,0,0,0,0,0,Jamaica,Montego Bay,18.4675,-77.9367,p168
+0,1,0,0,0,0,0,Jamaica,Port Antonio,18.1811,-76.4528,p169
+0,1,0,0,1,0,0,Kenya,Kilifi,-3.6333,39.8667,p170
+1,1,0,0,1,0,0,Kenya,Lamu,-2.2681,40.9025,p676
+0,1,0,0,1,0,0,Kenya,Malindi,-3.2136,40.1267,p171
+0,2,0,0,2,1,0,Kenya,Mombasa,-4.0511,39.635,p325
+0,4,1,0,1,2,1,Liberia,Buchanan,5.8592,-10.0531,p354
+0,4,1,0,1,2,1,Liberia,Cape Palmas,4.3667,-7.7275,p355
+0,3,1,0,1,2,1,Liberia,Georgetown,-7.9333,-14.4167,p353
+0,4,1,0,1,2,1,Liberia,Greenville,4.9892,-9.0422,p356
+0,4,1,0,1,2,2,Liberia,Monrovia,6.3456,-10.7997,p357
+0,1,1,0,1,0,1,Madagascar,Andoany,-13.4061,48.2797,p207
+0,1,1,0,1,1,1,Madagascar,Antisranana,-12.2667,49.2833,p319
+0,1,1,0,1,0,1,Madagascar,Antsohim Bondrona,-13.0833,48.8333,p208
+0,1,1,0,1,0,1,Madagascar,Faradofay,-25.0333,47.0,p209
+0,1,1,0,1,0,1,Madagascar,Iharana,-13.35,50.0,p210
+0,1,1,0,1,0,1,Madagascar,Louis,-13.0831,48.8331,p211
+0,1,1,0,1,0,1,Madagascar,Mahajanga,-15.7167,46.3,p212
+0,1,1,0,1,0,1,Madagascar,Maintirano,-18.0667,44.0167,p213
+0,1,1,0,1,0,1,Madagascar,Manakara,-22.1425,48.02,p214
+0,1,1,0,1,0,1,Madagascar,Mananjary,-21.2425,48.3456,p215
+0,1,1,0,1,0,1,Madagascar,Maroantsetra,-15.45,49.8167,p216
+0,1,1,0,1,0,1,Madagascar,Morondava,-20.2886,44.275,p217
+0,1,1,0,1,1,1,Madagascar,Toamasina,-18.1572,49.425,p320
+0,1,1,0,1,0,2,Madagascar,Toliara,-23.3667,43.6667,p221
+0,0,0,0,0,1,0,Malaysia,Jurong Island,1.2833,103.7333,p243
+0,0,0,0,0,0,1,Malaysia,Semporna,4.4942,118.6014,p116
+0,0,1,0,0,1,0,Malaysia,Tawau,4.26,117.8703,p262
+0,0,1,0,1,0,0,Malta,Valletta Harbor,35.8953,14.5119,p33
+2,2,0,0,1,0,0,Marshall Islands,Majuro,7.0944,171.3622,p789
+1,0,0,0,0,0,0,Martinique,Fort-de-France,14.5994,-61.0619,p498
+0,0,2,1,0,2,1,Mauritania,Nouadhibou,20.9075,-17.0467,p344
+0,0,2,2,0,2,2,Mauritania,Nouakchott,17.991317000000002,-16.028579999999998,p347
+0,0,1,1,0,2,1,Mauritius,Port Louis,-20.1436,57.5161,p345
+0,0,1,0,0,0,1,Mexico,Ensenada,31.8508,-116.6264,p139
+0,0,0,0,0,1,0,Mexico,La Paz,24.1694,-110.3164,p244
+0,0,1,0,0,0,1,Mexico,Manzanillo,19.0706,-104.3014,p140
+0,0,1,0,0,1,1,Mexico,Mazatlan,23.1922,-106.3992,p291
+0,1,0,0,2,0,0,Mozambique,Maputo,-25.9728,32.5611,p172
+0,1,1,1,0,1,1,Myanmar (Burma),Mergui,12.4333,98.6,p321
+0,1,0,2,1,0,1,Myanmar (Burma),Moulmein Harbor,16.4942,97.6239,p200
+0,1,0,0,0,0,0,Myanmar (Burma),Port Blair,11.6833,92.75,p173
+0,1,1,1,1,0,1,Myanmar (Burma),Rangoon,16.7667,96.1667,p218
+0,1,0,0,1,0,0,Myanmar (Burma),Sittwe,20.1414,92.9025,p174
+0,0,0,0,1,0,0,Namibia,Luderitz Bay,-26.6378,15.1558,p29
+0,0,0,0,0,0,1,Namibia,Walvis Bay,-22.9406,14.5008,p129
+3,0,0,0,0,0,0,New Zealand,Akaroa,-43.822423,172.921604,p792
+2,1,0,0,1,0,0,New Zealand,Auckland,-36.8364,174.7711,p773
+2,1,0,0,1,0,0,New Zealand,Bluff Harbor,-46.5944,168.3347,p774
+3,0,0,0,0,0,0,New Zealand,Collingwood,-40.6833,172.6667,p793
+2,1,0,0,1,0,0,New Zealand,Gisborne,-38.6725,178.0258,p775
+2,1,0,0,1,0,0,New Zealand,Greymouth,-42.4447,171.2008,p776
+3,0,0,0,0,0,0,New Zealand,Kingston,-42.9664,147.3164,p794
+2,1,0,0,1,0,0,New Zealand,Manukau Harbor,-36.9333,174.7833,p777
+2,0,1,0,0,1,0,New Zealand,Napier,-39.475,176.9189,p790
+2,1,0,0,1,0,0,New Zealand,Nelson,-41.2597,173.275,p778
+2,1,0,0,0,1,0,New Zealand,New Plymouth,-39.0572,174.0403,p791
+3,0,0,0,0,0,0,New Zealand,Opua,-35.3158,174.1222,p795
+2,1,0,0,1,0,0,New Zealand,Otago Harbor,-45.8167,170.6333,p779
+2,1,0,0,1,0,0,New Zealand,Picton,-41.2856,174.0069,p780
+2,1,0,0,1,0,0,New Zealand,Port Lyttelton,-43.6061,172.7161,p781
+3,0,0,0,0,0,0,New Zealand,Tarakohe,-40.8228,172.8956,p796
+2,1,0,0,1,0,0,New Zealand,Tauranga,-37.6594,176.1783,p782
+2,1,0,0,1,0,0,New Zealand,Timaru,-44.3897,171.2581,p783
+3,0,0,0,0,0,0,New Zealand,Wanganui,-39.9442,174.9931,p797
+2,1,0,0,1,0,0,New Zealand,Wellington,-41.2775,174.7936,p784
+2,1,0,0,1,0,0,New Zealand,Westport,-41.7503,171.5958,p785
+2,1,0,0,1,0,0,New Zealand,Whangarei,-35.7514,174.3489,p786
+3,0,0,0,0,0,0,New Zealand,Whangaroa,-35.05,173.7667,p798
+0,0,1,0,0,1,0,Nigeria,Burutu,5.35,5.5,p263
+0,0,1,0,0,1,0,Nigeria,Calabar,4.9781,8.3239,p264
+0,0,1,0,0,1,0,Nigeria,Forcados,5.350135,5.352625,p265
+0,0,1,0,1,1,0,Nigeria,Lagos,6.36279278,3.3820605169999998,p266
+0,0,1,0,0,1,0,Nigeria,Okrika,4.7167,7.0833,p267
+0,0,1,0,0,1,0,Nigeria,Onne,4.685,7.1636,p268
+0,0,1,0,0,1,0,Nigeria,Port Harcourt,4.7692,7.005,p269
+0,0,1,0,0,1,0,Nigeria,Tin Can Island,6.3673872320000005,3.38144598,p270
+0,0,1,0,0,1,0,Nigeria,Warri,5.5131,5.7256,p271
+0,0,0,1,0,0,1,Norway,Båtsfjorden,70.6333,29.7333,p117
+0,0,1,1,1,0,1,Palau,Koror,7.3313,134.457,p141
+1,1,0,0,0,0,0,Papua New Guinea,Aitape,-3.1406,142.3525,p677
+0,2,0,0,1,0,0,Papua New Guinea,Alotau,-10.3156,150.455,p224
+1,1,0,0,0,0,0,Papua New Guinea,Anewa Bay,-6.1833,155.545,p678
+1,1,0,0,0,0,0,Papua New Guinea,Bialla,-5.3069,151.0069,p679
+0,1,0,0,0,0,0,Papua New Guinea,Buka,-5.4342,154.6719,p193
+0,1,0,0,1,0,0,Papua New Guinea,Daru,-9.0683,143.2103,p175
+1,1,0,0,0,0,0,Papua New Guinea,Discovery Bay,-10.4167,150.4167,p680
+1,1,0,0,0,0,0,Papua New Guinea,Hamburg Harbor,-1.6333,149.9667,p681
+1,2,0,0,1,0,0,Papua New Guinea,Kavieng,-2.5847,150.7886,p708
+1,1,0,0,0,0,0,Papua New Guinea,Kieta,-6.2181,155.6381,p682
+1,1,0,0,0,0,0,Papua New Guinea,Kimbe,-5.5492,150.1483,p683
+1,1,0,0,0,0,0,Papua New Guinea,Kokopo,-4.3333,152.2667,p684
+1,1,0,0,0,0,0,Papua New Guinea,Kumul,-8.129488,144.570258,p685
+1,1,1,0,0,1,0,Papua New Guinea,Lae,-6.7411,146.9856,p729
+1,1,0,0,0,0,0,Papua New Guinea,Longan Island,-1.2167,144.3,p686
+1,1,0,0,0,0,0,Papua New Guinea,Lorengau,-2.0261,147.2711,p687
+0,2,0,0,0,1,0,Papua New Guinea,Madang,-5.2133,145.8008,p326
+1,1,0,0,0,0,0,Papua New Guinea,Oro Bay,-8.8953,148.4908,p688
+1,3,0,0,1,0,1,Papua New Guinea,Port Moresby,-9.4672,147.1517,p710
+1,1,0,0,0,0,0,Papua New Guinea,Queen Carola Harbor,-5.1667,154.55,p689
+1,2,0,0,1,0,0,Papua New Guinea,Rabaul,-4.2411,152.1861,p709
+1,1,0,0,0,0,0,Papua New Guinea,Samarai,-10.5819,150.6497,p690
+0,1,0,0,0,0,0,Papua New Guinea,Vanimo,-2.6822,141.2964,p176
+0,2,0,0,0,1,0,Papua New Guinea,Wewak Harbor,-3.57,143.6508,p327
+0,0,1,0,0,2,0,Peru,Bahia De Ancon,-11.7725,-77.1811,p336
+0,0,1,0,0,2,0,Peru,Bahia De Matarani,-16.9978,-72.1067,p337
+0,0,1,0,0,2,1,Peru,Bahia San Nicolas,-15.2583,-75.2397,p346
+0,0,0,1,0,1,0,Peru,Caleta Lobitos,-4.45,-81.2792,p245
+0,0,1,0,0,2,0,Peru,Chancay,-11.5792,-77.2722,p338
+1,0,1,0,0,1,0,Peru,Conchan Oil Terminal,-12.1642,-77.0306,p717
+1,0,1,0,0,1,0,Peru,La Pampilla Oil Terminal,-11.9333,-77.1333,p718
+0,0,0,0,0,0,1,Peru,Lagunillas,-13.8971,-76.3127,p118
+0,0,0,1,0,1,2,Peru,Paita,-5.0781,-81.1153,p293
+0,0,1,0,0,2,0,Peru,Pimental,-6.8375,-79.9389,p339
+0,0,0,1,0,0,3,Peru,Puerto Bayovar,-5.7956,-81.0531,p155
+0,0,0,1,0,1,1,Peru,Puerto Cabo Blanco,-4.2503,-81.2306,p283
+0,1,1,1,0,3,3,Peru,Puerto De Chimbote,-9.0767,-78.6122,p360
+0,0,1,0,0,1,2,Peru,Puerto De Huacho,-11.1228,-77.6161,p298
+0,0,3,0,0,5,1,Peru,Puerto Del Callao,-12.0453,-77.1467,p361
+0,0,2,0,0,3,0,Peru,Puerto Ilo,-17.6469,-71.3497,p358
+0,0,1,0,0,1,1,Peru,Puerto Supe,-10.8,-77.7464,p292
+0,0,1,0,0,2,0,Peru,Punta Lobitos (Bahia De Huarmey),-10.1,-78.1808,p340
+1,0,1,0,0,1,0,Peru,Salaverry,-8.2233,-78.9858,p719
+1,0,0,1,0,0,1,Peru,Talara,-4.5731,-81.2792,p671
+0,0,0,0,0,1,0,Philippines,Basco,20.45,121.9667,p246
+0,0,1,0,0,1,0,Philippines,Basilian City (Isabela),10.9067,124.4344,p272
+0,1,0,0,0,1,1,Philippines,Batangas City,13.7475,121.0122,p314
+0,0,0,0,0,0,1,Philippines,Bongao,5.0333,119.7833,p119
+0,0,1,0,0,0,1,Philippines,Bongtod,9.0841,126.1934,p142
+0,0,0,0,0,0,1,Philippines,Busuanga,12.1351,119.9302,p120
+0,1,0,0,1,0,0,Philippines,Butuan City,8.9461,125.5458,p177
+0,1,0,0,1,0,0,Philippines,Cagayan De Oro,8.5064,124.6583,p178
+0,1,0,0,0,1,0,Philippines,Catbalogan,11.7769,124.8775,p303
+0,1,1,0,0,0,3,Philippines,Cebu,10.3064,123.9261,p222
+0,1,0,0,1,0,0,Philippines,Claveria,18.6167,121.0833,p179
+0,0,0,0,0,0,1,Philippines,Coron,11.9966,120.209,p121
+0,0,0,0,0,0,1,Philippines,Culion,11.8951,120.0197,p122
+0,1,0,0,1,0,0,Philippines,Dagupan City,16.0562,120.3305,p180
+0,1,0,0,1,0,0,Philippines,Davao,7.111953767,125.65718570000001,p181
+0,0,1,0,0,1,0,Philippines,Diatagon,8.6511,126.1143,p273
+0,0,1,0,0,1,0,Philippines,Dinahican,14.6944,121.7186,p274
+0,1,0,0,0,1,0,Philippines,Dumaguete,9.3139,123.3119,p304
+0,1,2,0,0,2,1,Philippines,General Santos,6.0861,125.1567,p351
+0,1,0,0,1,0,1,Philippines,Guiuan,11.0333,125.7167,p201
+0,0,0,0,1,0,0,Philippines,Hinatuan,8.3667,126.3333,p8
+0,0,0,0,1,0,0,Philippines,Iligan,8.2322,124.2333,p9
+0,0,0,0,0,0,1,Philippines,Iloilo,10.6936,122.5825,p123
+0,0,0,0,0,0,1,Philippines,Jolo,6.05,121.0,p124
+0,0,0,0,1,0,0,Philippines,Laoang,12.5667,125.0167,p10
+0,0,0,0,1,0,0,Philippines,Legazpi Port,13.1444,123.7578,p11
+0,0,0,0,1,0,0,Philippines,Maasin,10.1308,124.8414,p12
+0,1,0,0,0,0,1,Philippines,Magosilom,9.3355,125.98100000000001,p202
+0,0,1,0,0,0,2,Philippines,Manila,14.555066,120.951126,p152
+0,1,0,0,0,0,1,Philippines,Masbate,12.3681,123.6217,p203
+0,0,0,0,1,0,0,Philippines,Masinloc,15.5567,119.9325,p13
+0,1,0,0,0,1,0,Philippines,Nasugbu,14.0833,120.6167,p305
+0,0,0,0,1,0,0,Philippines,Pagadian,7.8333,123.4333,p14
+0,1,0,0,0,1,0,Philippines,Port Borongan,11.6089,125.4456,p306
+0,1,0,0,1,1,0,Philippines,Puerto Princesa,9.7447,118.7328,p307
+0,0,1,0,0,1,0,Philippines,Sorsogon,12.9667,124.0,p275
+0,0,1,0,0,0,1,Philippines,Surigao City,9.7814,125.5006,p143
+0,1,0,0,1,0,0,Philippines,Tacloban,11.2475,125.0011,p182
+0,1,0,0,0,1,0,Philippines,Tagbilaran,9.6492,123.8458,p308
+0,1,0,0,1,0,0,Philippines,Tanauan,11.1,125.0167,p183
+0,0,0,0,0,0,1,Philippines,Toledo,10.3667,123.6333,p125
+0,0,1,0,0,1,0,Philippines,Ungos,14.6709,121.6126,p276
+0,0,0,0,1,0,0,Philippines,Virac,13.5817,124.2342,p15
+0,1,0,0,1,1,1,Philippines,Zamboanga,6.9028,122.0742,p315
+0,0,0,0,0,2,0,Poland,Darlowo,54.4378,16.3831,p332
+0,0,0,0,1,0,0,Poland,Gdansk,54.35982502,18.7823967,p16
+0,0,0,0,1,0,0,Poland,Gdynia,54.5333,18.5414,p17
+0,0,0,0,0,1,0,Poland,Kolobrzeg,54.1836,15.5533,p247
+0,0,0,0,0,1,0,Poland,Nowy Port,54.4167,18.6667,p248
+1,0,0,0,0,0,0,Poland,Port Polnochny,54.4,18.7167,p499
+0,0,0,0,0,1,0,Poland,Swinoujscie,53.905,14.2697,p249
+0,0,0,0,1,1,0,Poland,Ustka,54.5844,16.8539,p250
+0,0,0,0,0,0,1,Poland,Wladyslawowo,54.791000000000004,18.4032,p126
+0,0,1,0,0,1,0,Russia,Murmansk,68.9725,33.0461,p277
+0,0,1,0,0,1,0,Russia,Vladivostok,43.0944,131.8903,p278
+1,0,0,0,0,0,0,Saint Lucia,Castries,14.0131,-60.9986,p500
+1,0,0,0,0,0,0,Saint Lucia,Fort,13.7225,-60.9544,p501
+1,0,0,0,0,0,0,Saint Lucia,Sac,13.9853,-61.0158,p502
+1,0,0,0,0,0,0,Saint Lucia,Soufriere,13.8544,-61.0603,p503
+1,0,0,0,0,0,0,Saint Vincent and the Grenadines,Arnos Vale,13.141395000000001,-61.213196999999994,p504
+1,0,0,0,0,0,0,Saint Vincent and the Grenadines,Campden Park Bay,13.1692,-61.2483,p505
+1,0,0,0,0,0,0,Saint Vincent and the Grenadines,Canouan,12.7042,-61.3289,p506
+1,1,0,0,0,1,0,Saint Vincent and the Grenadines,Kingstown,13.15,-61.2275,p728
+2,0,0,0,0,0,0,Saint Vincent and the Grenadines,Port Elizabeth,13.0097,-61.2389,p739
+1,2,0,0,0,2,0,Samoa,Apia,-13.8283,-171.7625,p731
+0,0,2,1,1,1,1,Senegal,Dakar,14.6822,-17.43,p285
+0,0,2,1,1,1,1,Senegal,Karabane,12.5667,-16.6667,p286
+0,0,2,1,1,1,1,Senegal,Rufisque,14.7,-17.2833,p287
+0,1,2,2,2,1,2,Senegal,St Louis,16.0167,-16.5167,p322
+1,0,0,1,1,0,1,Seychelles,Victoria,-4.6264,55.4639,p672
+0,0,1,2,0,0,2,Sierra Leone,Bonthe,7.5333,-12.5,p153
+0,0,1,2,1,0,2,Sierra Leone,Freetown,8.4942,-13.2125,p154
+0,0,1,3,0,0,3,Sierra Leone,Pepel,8.5733,-13.0589,p157
+1,1,0,0,0,0,0,Solomon Islands,Allardyce harbour,-7.7764,158.6522,p691
+1,1,0,0,0,0,0,Solomon Islands,Aola Bay,-9.5314,160.4883,p692
+1,1,0,0,0,0,0,Solomon Islands,Gizo Harbor,-8.1014,156.8419,p693
+1,1,1,0,0,1,0,Solomon Islands,Honiara,-9.4264,159.9772,p730
+1,1,0,0,1,0,0,Solomon Islands,Malloco Bay,-7.57,156.6039,p694
+0,1,0,0,0,0,0,Solomon Islands,Noro,-8.2228,157.1986,p194
+1,1,0,0,0,0,0,Solomon Islands,Pakera point,-10.4128,161.7817,p695
+1,1,0,0,0,0,0,Solomon Islands,Pipisala bay,-8.9983,159.1331,p696
+1,1,0,0,0,0,0,Solomon Islands,Ringi Cove,-8.1211,157.1131,p697
+1,1,0,0,0,0,0,Solomon Islands,Shortland harbor,-7.0878,155.8622,p698
+2,1,0,0,0,0,0,Solomon Islands,Tulagi,-9.1014,160.1508,p787
+1,1,0,0,0,0,0,Solomon Islands,Viru harbor,-8.4992,157.7317,p699
+1,1,0,0,0,0,0,Solomon Islands,Yandina,-9.0753,159.2211,p700
+0,0,1,0,0,1,0,Somalia,Baraawe,1.1,44.05,p279
+0,0,1,0,0,2,0,Somalia,Boosaaso,11.2833,49.1833,p341
+0,0,1,0,0,1,0,Somalia,Kismayu,-0.3742,42.5456,p280
+0,0,1,0,0,1,0,Somalia,Marka,1.7167,44.7833,p281
+0,1,1,0,0,2,0,Somalia,Mogadishu,2.0289,45.3453,p349
+0,2,0,2,2,0,1,South Africa,Cape Town,-33.9092,18.4364,p231
+0,1,0,0,1,0,1,South Africa,Durban,-29.8811,31.0272,p204
+0,1,0,0,0,0,0,South Africa,East London,-33.0253,27.9075,p184
+0,1,0,0,0,0,0,South Africa,Mossel Bay,-34.17651875,22.14161088,p185
+0,1,0,0,0,0,0,South Africa,Port Elizabeth,-33.9614,25.6364,p195
+0,1,0,0,0,0,0,South Africa,Richards Bay,-28.8047,32.0597,p186
+0,1,0,0,0,0,0,South Africa,Saldanha Bay,-33.0156,17.9897,p187
+0,1,0,0,0,0,0,South Africa,Simonstown,-34.19,18.4369,p188
+1,0,0,0,0,0,0,South Korea,Busan (Pusan),35.1094,129.0594,p507
+1,0,0,0,0,0,0,South Korea,Cheju Hang,33.5167,126.5333,p508
+1,0,0,0,0,0,0,South Korea,Chinae,35.1333,128.65,p509
+1,0,0,0,0,0,0,South Korea,Daesan Hang,37.0142,126.38,p510
+1,0,0,0,0,0,0,South Korea,Gwangyang Hang,34.8883,127.6786,p511
+1,0,0,0,0,0,0,South Korea,Incheon,37.4742,126.6175,p512
+1,0,0,0,0,0,0,South Korea,Kunsan,35.9597,126.5908,p513
+1,0,0,0,0,0,0,South Korea,Masan,35.1642,128.6261,p514
+1,0,0,0,0,0,0,South Korea,Mokpo,34.7761,126.3831,p515
+1,0,0,0,0,0,0,South Korea,Mukho,37.5458,129.115,p516
+1,0,0,0,0,0,0,South Korea,Pohang,36.0197,129.4044,p517
+1,0,0,0,0,0,0,South Korea,Pyeongtaek Hang,36.9928,126.7919,p518
+1,0,0,0,0,0,0,South Korea,Sokch'O Hang,38.2069,128.5975,p519
+1,0,0,0,0,0,0,South Korea,Tonghae,37.5333,129.15,p520
+1,0,0,0,0,0,0,South Korea,Ulsan,35.4997,129.3867,p521
+1,0,0,0,0,0,0,South Korea,Yeosu,34.7467,127.7569,p522
+0,0,0,0,1,0,0,Spain,Palma De Mallorca,39.5511,2.6303,p18
+0,0,0,0,0,0,1,Sri Lanka,Jaffna,9.65,80.0193,p127
+0,0,0,0,0,1,0,Suriname,Paramaribo,5.82,-55.1422,p251
+0,1,0,1,0,0,2,São Tomé and Príncipe,São Tomé,0.3447,6.7344,p220
+1,0,0,0,0,0,0,Taiwan,Ao,24.6,121.8667,p367
+2,0,0,0,0,0,0,Taiwan,Chung Kang,24.3,120.5,p740
+1,0,0,0,0,0,0,Taiwan,Hirara Ko,24.8,125.2833,p523
+1,1,0,0,2,0,0,Taiwan,Hsiung,22.6167,120.25,p701
+1,0,0,0,0,0,0,Taiwan,Hu Kang,23.5833,119.5333,p524
+1,0,0,0,0,0,0,Taiwan,Ishigaki,24.3333,124.1667,p525
+1,0,0,0,1,0,0,Taiwan,Kin Wan,26.4167,127.9,p526
+1,0,0,0,0,0,0,Taiwan,Lien Kang,23.9833,121.6,p527
+2,0,1,0,1,0,0,Taiwan,Lung,25.1333,121.7667,p771
+1,0,0,0,1,0,0,Taiwan,Mailiao,23.7886,120.1917,p528
+1,0,0,0,0,0,0,Taiwan,Naha Ko,26.2167,127.6833,p529
+1,0,0,0,0,0,0,Taiwan,Nakagusuku,26.296853999999996,127.906931,p530
+1,0,0,0,0,0,0,Taiwan,Nishihara,26.2167,127.8,p531
+2,0,0,0,0,0,0,Taiwan,Shui,25.1833,121.4,p741
+0,0,2,1,1,0,1,Tanzania,Dar Es Salaam,-6.8344,39.2992,p130
+0,1,0,0,0,0,0,Tanzania,Kilwa Kivinje,-8.7458,39.4153,p189
+0,1,0,0,0,0,0,Tanzania,Mikindani,-10.2667,40.1333,p190
+0,1,0,0,0,0,0,Tanzania,Mtwara,-10.2678,40.1981,p191
+0,1,0,0,0,0,0,Tanzania,Tanga,-5.0656,39.105,p192
+0,3,0,0,2,0,0,Tanzania,Zanzibar,-6.1556,39.1931,p232
+0,0,0,1,0,0,1,Thailand,Ban Nam Khem,8.8633,98.2749,p128
+0,0,1,0,0,0,0,Thailand,Chumphon,10.4934,99.1772,p34
+0,0,2,0,0,0,0,Thailand,Kantang,7.4106,99.5081,p31
+0,0,1,1,0,0,0,Thailand,Mahachai,13.53107192,100.25696490000001,p35
+0,0,1,0,0,0,0,Thailand,Narathiwat,6.4258,101.8294,p36
+0,0,1,1,0,0,1,Thailand,Pak Nam (Ranong),10.00543199,98.60658956,p144
+0,0,0,1,0,0,0,Thailand,Pattani,6.95,101.3,p363
+0,0,1,0,0,0,0,Thailand,Phuket,7.8333,98.4,p37
+0,0,2,2,0,1,2,Thailand,Ranong,10.0053,98.6083,p726
+0,0,1,0,0,0,1,Thailand,Rayong,12.6425,101.3011,p673
+1,0,1,1,0,1,1,Thailand,Samut Prakan,13.59230089,100.59223859999999,p725
+1,0,0,3,0,0,2,Thailand,Samut Sakhon,13.5397,100.2647,p674
+0,0,1,0,0,0,0,Thailand,Satun,6.5336,100.0705,p38
+1,0,0,3,0,0,2,Thailand,Songkhla,7.2286,100.5714,p675
+0,0,2,0,0,1,2,Thailand,Trat,12.2069,102.5575,p294
+0,0,1,0,0,1,0,Timor-Leste,Dili,-8.5517,125.5764,p282
+0,0,0,0,1,0,0,Togo,Lome,6.1392,1.2858,p19
+2,0,0,0,0,0,0,Tokelau,Atafu,-8.5628,-172.4969,p742
+1,0,0,0,0,0,0,Tokelau,Fakaofo,-9.3897,-171.2181,p532
+1,0,0,0,0,0,0,Tokelau,Nukunono,-9.1714,-171.815,p533
+1,0,0,0,0,0,0,Tonga,Neiafu (Vava'u),-18.6558,-173.9844,p534
+1,0,0,0,0,0,0,Tonga,Nukualofa,-21.135,-175.1889,p368
+1,0,0,0,0,0,0,Tonga,Pangai (Ha'apai),-19.8047,-174.3517,p535
+1,0,0,0,0,0,0,Trinidad & Tobago,Anse Tembladora,10.6833,-61.5833,p536
+1,0,0,0,0,0,0,Trinidad & Tobago,Brighton,10.2486,-61.6303,p537
+1,0,0,0,0,0,0,Trinidad & Tobago,Chaguaramas,10.6792,-61.6414,p538
+1,0,0,0,0,0,0,Trinidad & Tobago,Galeota Point Terminal,10.1406,-60.9969,p539
+1,0,0,0,0,0,0,Trinidad & Tobago,Point Fortin,10.1986,-61.6958,p540
+1,0,0,0,0,0,0,Trinidad & Tobago,Point Lisas Industrial Port,10.4,-61.5,p541
+1,0,0,0,0,0,0,Trinidad & Tobago,Point Lisas Port,10.3883,-61.4931,p542
+1,0,0,0,0,0,0,Trinidad & Tobago,Pointe A Pierre,10.3203,-61.4686,p543
+0,2,0,0,2,0,0,Trinidad & Tobago,Port Of Spain,10.6553,-61.5356,p225
+1,0,0,0,0,0,0,Trinidad & Tobago,Scarborough,11.1797,-60.7358,p544
+1,0,0,0,0,0,0,Turks & Caicos,Grand Turk,21.4336,-71.1475,p545
+1,1,0,0,1,0,0,Tuvalu,Funafuti,-8.5028,179.1958,p702
+0,0,1,0,0,0,0,United Kingdom,Aberdeen,57.1422,-2.0792,p39
+0,0,0,1,0,0,0,United Kingdom,Ellesmere,53.2903,-2.8747,p20
+0,0,1,0,0,0,0,United Kingdom,Kinlochbervie,58.4575,-5.0505,p40
+0,0,0,1,0,0,0,United Kingdom,Leith,55.9825,-3.1747,p21
+0,0,1,0,0,0,0,United Kingdom,Plymouth,50.3647,-4.1564,p41
+0,0,0,1,1,0,0,United Kingdom,Portsmouth,50.8075,-1.1,p22
+0,0,1,0,0,0,0,United Kingdom,Scrabster,58.6114,-3.5453,p42
+0,0,0,1,0,0,0,United Kingdom,Sharpness,51.7214,-2.4761,p23
+0,0,1,0,0,0,0,United Kingdom,Stornoway,58.2064,-6.3889,p43
+1,0,0,0,0,0,0,United States,"Accomac, VA",37.7186,-75.6672,p546
+2,0,0,0,0,0,0,United States,"Anchorage, AK",61.2356,-149.8903,p743
+1,0,0,0,0,0,0,United States,"Apalachicola, FL",29.7275,-84.9886,p547
+2,0,0,0,0,0,0,United States,"Astoria, OR",46.1894,-123.8317,p744
+1,0,0,0,0,0,0,United States,"Atlantic City, NJ",39.3667,-74.4167,p548
+1,0,0,0,0,0,0,United States,"Barataria, LA",29.715,-90.1161,p549
+1,0,0,0,0,0,0,United States,"Barnegat, NJ",39.7667,-74.1,p550
+1,0,0,0,0,0,0,United States,"Bass Harbor, ME",44.2378,-68.3494,p551
+1,0,0,0,0,0,0,United States,"Bayou La Batre, AL",30.4033,-88.2481,p552
+1,0,0,0,0,0,0,United States,"Beals Island, ME",44.5197,-67.615,p553
+1,0,0,0,0,0,0,United States,"Belford, NJ",40.4281,-74.0782,p554
+1,0,0,0,0,0,0,United States,"Bellingham, WA",48.7406,-122.5006,p555
+1,0,0,0,0,0,0,United States,"Bellville, GA",31.3667,-81.4333,p556
+1,0,0,0,0,0,0,United States,"Berwick, LA",29.6981,-91.2269,p557
+1,0,0,0,0,0,0,United States,"Biloxi, MS",30.3906,-88.86,p558
+1,0,0,0,0,0,0,United States,"Blaine, WA",48.9922,-122.7528,p559
+1,0,0,0,0,0,0,United States,"Bodega Bay, CA",38.3311,-123.0517,p560
+1,0,1,0,0,1,0,United States,"Boston, MA",42.3636,-71.0367,p720
+2,0,0,0,0,0,0,United States,"Brookings, OR",42.0475,-124.2681,p745
+1,0,0,0,0,0,0,United States,"Brunswick, GA",31.1406,-81.4967,p561
+1,0,0,0,0,0,0,United States,"Cameron, LA",29.6217222,-93.38300293,p562
+1,0,0,0,0,0,0,United States,"Cape Canaveral, FL",28.4117,-80.6092,p563
+1,0,0,0,0,0,0,United States,"Charleston, OR",43.34,-124.33,p564
+1,0,0,0,0,0,0,United States,"Chatham, MA",41.6819,-69.9603,p565
+1,0,0,0,0,0,0,United States,"Chauvin, LA",29.4469,-90.5936,p566
+1,0,0,0,0,0,0,United States,"Chincoteague, VA",37.902659,-75.406818,p567
+1,0,0,0,0,0,0,United States,"Chinook, WA",46.2722,-123.9461,p568
+1,0,0,0,0,0,0,United States,"Columbia, NC",35.9167,-76.25,p569
+1,0,0,0,0,0,0,United States,"Cordova, AK",60.55,-145.76,p570
+1,0,0,0,0,0,0,United States,"Cortez, FL",27.470035,82.68311700000001,p571
+1,0,0,0,0,0,0,United States,"Covington, LA",30.4789,-90.1042,p572
+1,0,0,0,0,0,0,United States,"Crescent City, CA",41.7447,-124.19,p573
+1,0,1,0,0,0,0,United States,"Dutch Harbor, AK",53.8969,-166.525,p663
+1,0,0,0,0,0,0,United States,"Elizabeth City, NC",36.3,-76.2167,p574
+1,0,0,0,0,0,0,United States,"Eureka, CA",40.7944,-124.1903,p575
+1,0,0,0,0,0,0,United States,"Everett, WA",47.9822,-122.2239,p576
+1,0,0,0,0,0,0,United States,"Fairhaven, MA",41.664283000000005,-70.907324,p577
+2,0,0,0,0,0,0,United States,"False Pass), AK",54.863062,-163.409421,p746
+1,0,0,0,0,0,0,United States,"Fernandina Beach, FL",30.6811,-81.4622,p578
+1,0,0,0,0,0,0,United States,"Fort Bragg, CA",39.4269,-123.8081,p579
+1,0,0,0,0,0,0,United States,"Fort Myers, FL",26.647643,-81.869899,p580
+1,0,0,0,0,0,0,United States,"Friendship, ME",43.9736,-69.3411,p581
+1,0,0,0,0,0,0,United States,"Galveston, TX",29.3042,-94.8186,p582
+1,0,1,0,0,1,0,United States,"Gloucester, MA",42.6114,-70.6544,p721
+1,0,0,0,0,0,0,United States,"Gulf Shores, AL",30.239532,-87.66587700000001,p583
+1,0,0,0,0,0,0,United States,"Half Moon Bay, CA",37.4944,-122.4808,p584
+1,0,0,0,0,0,0,United States,"Hampton Roads Area, VA",36.9667,-76.3667,p585
+1,0,0,0,0,0,0,United States,"Homer, AK",59.605,-151.4247,p586
+1,0,1,0,1,0,0,United States,"Honolulu, HI",21.3094,-157.8778,p664
+1,0,0,0,0,0,0,United States,"Iberia, LA",29.92549437,-91.83528569,p587
+1,0,0,0,0,0,0,United States,"Intracoastal City, LA",29.77811808,-92.17145215,p588
+1,0,0,0,0,0,0,United States,"Jonesport, ME",44.5325,-67.5939,p589
+1,0,0,0,0,0,0,United States,"Juneau, AK",58.37693345,-134.65432019999997,p590
+1,0,0,0,0,0,0,United States,"Ketchikan, AK",55.3469,-131.6739,p591
+1,0,0,0,0,0,0,United States,"Key West, FL",24.5625,-81.8006,p592
+1,0,0,0,0,0,0,United States,"La Conner, WA",48.39919061,-122.4962077,p593
+1,0,0,0,0,0,0,United States,"La Push, WA",47.9,-124.6333,p594
+1,0,0,0,0,0,0,United States,"Leeville, LA",29.25132402,-90.20989288,p595
+1,0,0,0,0,0,0,United States,"Los Angeles, CA",33.7319,-118.2653,p596
+1,0,0,0,0,0,0,United States,"Mayport, FL",30.3947,-81.4092,p597
+1,0,0,0,0,0,0,United States,"Milbridge, ME",44.5364,-67.8778,p598
+1,0,0,0,0,0,0,United States,"Montauk, NY",41.0667,-71.9333,p599
+1,0,0,0,0,0,0,United States,"Monterey, CA",36.6056,-121.8922,p600
+1,0,0,0,0,0,0,United States,"Morehead City, NC",34.7197,-76.6992,p601
+1,0,0,0,0,0,0,United States,"Morro Bay, CA",35.37,-120.8581,p602
+1,0,0,0,0,0,0,United States,"Moss Landing, CA",36.8064,-121.7856,p603
+1,0,1,0,0,1,0,United States,"Moss Point, MS",30.4117,-88.5344,p722
+1,0,0,0,0,0,0,United States,"Naknek, AK",58.7214,-157.0078,p604
+1,0,0,0,0,0,0,United States,"Naples, FL",26.15,-81.8,p605
+1,0,0,0,0,0,0,United States,"Neah Bay, WA",48.3708,-124.6069,p606
+1,0,0,0,0,0,0,United States,"New Bedford, MA",41.6375,-70.9164,p607
+1,0,0,0,0,0,0,United States,"New London, CT",41.3589,-72.0914,p608
+1,0,0,0,0,0,0,United States,"Newington, NH",43.1,-70.8336,p609
+1,0,0,0,0,0,0,United States,"Newport, OR",44.6222,-124.0489,p610
+1,0,0,0,0,0,0,United States,"Newport, RI",41.4825,-71.3289,p611
+1,0,0,0,0,0,0,United States,"North Kingstown, RI",41.577778,-71.44966551,p612
+1,0,0,0,0,0,0,United States,"Norton/Kotzebue Sound, AK",64.320808,-165.865921,p613
+1,0,0,0,0,0,0,United States,"Ocean City, MD",38.3333,-75.0833,p614
+1,0,0,0,0,0,0,United States,"Old Harbor), AK",57.1972,-153.3078,p615
+1,0,0,0,0,0,0,United States,"Olympia, WA",47.0533,-122.9011,p616
+1,0,0,0,0,0,0,United States,"Owls Head, ME",44.0822,-69.0572,p617
+1,0,0,0,0,0,0,United States,"Palacios, TX",28.6989,-96.2244,p618
+1,0,0,0,0,0,0,United States,"Panama City, FL",30.15401849,-85.66686727,p619
+1,0,0,0,0,0,0,United States,"Petersburg, AK",56.8097,-132.9642,p620
+1,0,1,0,0,1,0,United States,"Point Judith, RI",41.37757762,-71.51263694,p723
+1,0,0,0,0,0,0,United States,"Point Pleasant, NJ",40.097778999999996,-74.040033,p621
+1,0,0,0,0,0,0,United States,"Port Arthur, TX",29.8431,-93.9611,p622
+1,0,0,0,0,0,0,United States,"Port Clyde, ME",43.9256,-69.2583,p623
+1,0,0,0,0,0,0,United States,"Port Isabel, TX",26.0672,-97.2119,p624
+1,0,0,0,0,0,0,United States,"Port Lavaca, TX",28.6239,-96.6233,p625
+1,0,0,0,0,0,0,United States,"Port St. Joe, FL",29.8319,-85.3139,p626
+1,0,0,0,0,0,0,United States,"Portland, ME",43.6533,-70.2431,p627
+1,0,0,0,0,0,0,United States,"Portsmouth, NH",43.0875,-70.7697,p628
+1,0,0,0,0,0,0,United States,"Reedville, VA",37.8419,-76.2758,p629
+1,0,0,0,0,0,0,United States,"Rockland, ME",44.1031,-69.1033,p630
+1,0,0,0,0,0,0,United States,"Rockport, TX",27.990448999999998,-97.07504899999999,p631
+1,0,1,0,0,0,0,United States,"San Diego, CA",32.6844,-117.1614,p665
+1,0,1,0,0,0,0,United States,"San Francisco Area, CA",37.79829448,-117.1614,p666
+2,0,0,0,0,0,0,United States,"Sand Point), AK",55.325,-160.5083,p747
+1,0,0,0,0,1,0,United States,"Santa Barbara, CA",34.4064,-119.6906,p714
+1,0,0,0,0,0,0,United States,"Savannah, GA",32.09313335,-81.10513454,p632
+1,0,1,0,0,0,0,United States,"Seattle, WA",47.6022,-122.3653,p667
+1,0,1,0,0,0,0,United States,"Seward, AK",60.1186,-149.4325,p668
+1,0,0,0,0,0,0,United States,"Shelton, WA",47.2094,-123.0872,p633
+1,0,0,0,0,0,0,United States,"Shinnicock, NY",40.84234042,-72.48848009,p634
+1,1,0,0,0,0,0,United States,"Sitka, AK",57.0517,-135.3439,p703
+1,0,0,0,0,0,0,United States,"Soldotna), AK",60.544077,-151.22304,p635
+1,0,0,0,0,0,0,United States,"Southwest Harbor, ME",44.2744,-68.3167,p636
+1,0,0,0,0,0,0,United States,"Spruce Head, ME",44.0114,-69.1328,p637
+1,0,0,0,0,0,0,United States,"St. Petersburg, FL",27.7614,-82.6317,p638
+1,0,0,0,0,0,0,United States,"St.Lucie, FL",27.4936,-80.3422,p639
+1,0,0,0,0,0,0,United States,"Stonington, CT",41.3375,-71.9136,p640
+1,0,0,0,0,0,0,United States,"Stonington, ME",44.15,-68.6667,p641
+1,0,0,0,0,0,0,United States,"Stumpy Point, NC",35.6983,-75.7408,p642
+1,0,0,0,0,0,0,United States,"Swanquarter, NC",35.4061,-76.3289,p643
+1,0,0,0,0,0,0,United States,"Swans Island, ME",44.1333,-68.45,p644
+1,0,0,0,0,0,0,United States,"Swansboro, NC",34.6833,-77.1333,p645
+1,0,0,0,0,0,0,United States,"Tacoma, WA",47.2672,-122.4067,p646
+1,0,0,0,0,0,0,United States,"Tenakee Springs), AK",57.7783,-135.2083,p647
+1,0,0,0,0,0,0,United States,Ugashik),57.57676800000001,-157.616345,p648
+1,0,0,0,0,0,0,United States,"Vandemere, NC",35.1839,-76.6681,p649
+1,0,0,0,0,0,0,United States,"Venice, LA",29.2769,-89.3547,p650
+1,0,0,0,0,0,0,United States,"Ventura, CA",34.2464,-119.2639,p651
+1,0,0,0,0,0,0,United States,"Vinalhaven, ME",44.0444,-68.8381,p652
+1,0,0,0,0,0,0,United States,"Washington, NC",35.55,-77.05,p653
+1,0,0,0,0,0,0,United States,"Westport, WA",46.1333,-123.3833,p654
+1,0,0,0,0,0,0,United States,"Wildwood, NJ",38.9889,-74.8198,p655
+1,0,0,0,0,0,0,United States,"Willapa Bay, WA",46.6833,-123.75,p656
+1,0,0,0,0,0,0,United States,"Wrangell, AK",56.4636,-132.3806,p657
+1,0,0,0,0,0,0,United States,"Yakutat, AK",59.5469,-139.7369,p658
+1,0,0,0,0,0,0,United States,"Yscloskey, LA",29.8417,-89.6885,p659
+1,0,0,0,0,0,0,Uruguay,Colonia,-34.4717,-57.8472,p660
+1,1,0,0,0,0,1,Uruguay,La Paloma,-34.6533,-54.1444,p706
+0,0,1,5,0,2,5,Uruguay,Montevideo,-34.9006,-56.2067,p348
+1,0,0,0,0,0,0,Uruguay,Nueva Palmira,-33.8789,-58.4242,p661
+1,0,0,0,0,0,0,Uruguay,Puerto Sauce,-34.4394,-57.4433,p662
+2,1,0,0,0,0,0,Vanuatu,Luganville (Santo),-15.5147,167.1883,p788
+1,1,0,1,0,0,1,Vanuatu,Port Vila,-17.7472,168.3092,p707
+2,0,0,0,0,0,0,Venezuela,Amuay (Bahia De Amuay),11.7478,-70.2142,p748
+2,0,0,0,0,0,0,Venezuela,Bahia De Pertigalete,10.2439,-64.5575,p749
+2,0,0,0,0,0,0,Venezuela,Bajo Grande,10.5011,-71.6136,p750
+0,2,0,0,2,0,0,Venezuela,Carupano,10.6753,-63.2436,p226
+2,0,0,0,0,0,0,Venezuela,Catia La Mar,10.606869999999999,-67.02695,p751
+0,2,0,0,1,1,0,Venezuela,Cumana (Puerto Sucre),10.4742,-64.1903,p328
+2,0,0,0,0,0,0,Venezuela,El Guamache,10.8653,-64.0619,p752
+2,0,0,0,0,0,0,Venezuela,El Palito,10.4961,-68.1242,p753
+2,0,0,0,0,0,0,Venezuela,El Tabiazo,10.75328405,-71.54453234,p754
+2,0,0,0,0,0,0,Venezuela,Goto Oil Terminal,12.2167,-68.3833,p755
+0,2,0,0,1,1,0,Venezuela,Guanta,10.2492,-64.5944,p329
+0,2,0,0,2,0,0,Venezuela,Guiria,10.5703,-62.2933,p227
+2,0,0,0,0,0,0,Venezuela,Jose Terminal,10.1,-64.85,p756
+1,1,0,0,0,0,0,Venezuela,La Guaira,10.6028,-66.9442,p704
+2,0,0,0,0,0,0,Venezuela,La Salina,10.3722,-71.4614,p757
+2,0,0,0,0,0,0,Venezuela,Las Piedras,11.66965847,-70.2165505,p758
+2,0,0,0,0,0,0,Venezuela,Maracaibo,10.6836,-71.5911,p759
+2,0,0,0,0,0,0,Venezuela,Puerto Borburata,10.4856,-67.9839,p760
+2,0,0,0,0,0,0,Venezuela,Puerto Cabello,10.4772,-67.9986,p761
+2,0,0,0,0,0,0,Venezuela,Puerto Chichiriviche,10.9333,-68.2761,p762
+2,0,0,0,0,0,0,Venezuela,Puerto Cumarebo,11.513227,-69.331964,p763
+2,0,0,0,0,0,0,Venezuela,Puerto De Hierro,10.6336,-62.0892,p764
+0,2,0,0,1,1,0,Venezuela,Puerto La Cruz,10.24644461,-64.61588839,p330
+2,0,0,0,0,0,0,Venezuela,Puerto Miranda,10.7558,-71.5536,p765
+2,0,0,0,0,0,0,Venezuela,Punta Cardon,11.6239,-70.2333,p766
+2,0,0,0,0,0,0,Venezuela,Punta De Palmas,10.809752,-71.510614,p767
+2,0,0,0,0,0,0,Venezuela,Salina,10.3722,-71.4614,p768
+2,0,0,0,0,0,0,Venezuela,San Lorenzo,9.7833,-71.0667,p769
+2,0,0,0,0,0,0,Venezuela,Venterminals,10.4833,-68.0333,p770
+0,0,0,1,0,0,0,Vietnam,Da Nang,16.0822,108.2269,p24
+0,0,1,0,0,0,1,Vietnam,Ha Tien,10.3833,104.4833,p145
