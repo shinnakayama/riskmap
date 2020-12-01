@@ -5,7 +5,7 @@ WITH
 -- Nate's update on voyages
 updated_voyages AS (
    SELECT *
-   FROM `gfwanalysis.GFW_trips.updated_voyages`
+   FROM `gfwanalysis.GFW_trips.updated_voyages2`
    WHERE CAST(trip_start AS DATE) >= '2012-01-01'
       AND CAST(trip_start AS DATE) <= '2019-12-31'
 ),
@@ -17,7 +17,7 @@ trip_start_coords AS (
     * EXCEPT(s2id, lon, lat),
     ST_GEOGPOINT(lon, lat) AS trip_start_anchorage_coords
   FROM updated_voyages AS a
-  LEFT JOIN (select s2id, lon, lat FROM `world-fishing-827.gfw_research.named_anchorages`) AS b
+  LEFT JOIN (select s2id, lon, lat FROM `world-fishing-827.anchorages.named_anchorages_v20201104`) AS b
   ON a.trip_start_anchorage_id = b.s2id
 ),
 
@@ -27,7 +27,7 @@ trip_end_coords AS (
     * EXCEPT(s2id, lon, lat),
     ST_GEOGPOINT(lon, lat) AS trip_end_anchorage_coords,
   FROM trip_start_coords AS a
-  LEFT JOIN (select s2id, lon, lat FROM `world-fishing-827.gfw_research.named_anchorages`) AS b
+  LEFT JOIN (select s2id, lon, lat FROM `world-fishing-827.anchorages.named_anchorages_v20201104`) AS b
   ON a.trip_end_anchorage_id = b.s2id
 ),
 
@@ -40,7 +40,7 @@ GFW_anchorage AS (
       lat AS anchorage_lat,
       lon AS anchorage_lon,
       ST_GEOGPOINT(lon, lat) AS anchorage_coords
-   FROM `world-fishing-827.gfw_research.named_anchorages`
+   FROM `world-fishing-827.anchorages.named_anchorages_v20201104`
 ),
 
 
@@ -408,7 +408,7 @@ anchorages AS (
    SELECT
       *,
       ST_GEOGPOINT(lon, lat) AS anchorage_point
-   FROM `world-fishing-827.gfw_research.named_anchorages`
+   FROM `world-fishing-827.anchorages.named_anchorages_v20201104`
 ),
 
 
@@ -474,7 +474,7 @@ transshipment AS (
 
 transshipment_clean AS (
    SELECT
-      trip_id,
+      gfw_trip_id,
       event_start,
       event_end,
       trip_start, trip_end, trip_duration_hr,
@@ -492,7 +492,7 @@ transshipment_clean AS (
       lon_mean, lat_mean
    FROM transshipment
    GROUP BY
-      trip_id,
+      gfw_trip_id,
       event_start,
       event_end,
       trip_start, trip_end, trip_duration_hr,
@@ -515,7 +515,7 @@ transshipment_clean AS (
 -- add feature classes
 transshipment_feature AS (
    SELECT
-      trip_id,
+      gfw_trip_id,
       trip_start,
       trip_end,
       from_country, to_country,
@@ -529,12 +529,13 @@ transshipment_feature AS (
       from_la_no, from_la_low, from_la_med, from_la_high,
       to_la_no, to_la_low, to_la_med, to_la_high,
       carrier_ssvid, neighbor_ssvid,
+      carrier_flag, neighbor_flag,
 
       CASE
          WHEN carrier_flag IN ('ATG','BRB','CYM','LBR','VCT','VUT') THEN 'group1'
          WHEN carrier_flag IN ('BHS','BHR','BLZ','BOL','BRN','KHM','CYP','GNQ','GAB','GEO','HND','KIR','MDG','MLT',
             'MHL','PAN','PRT','KNA','WSM','SLE','LKA','TON','TZA') THEN 'group2'
-         WHEN neighbor_flag IN ('ALB','DZA','AGO','AIA','ARG','AUS','AZE','BGD','BEL','BMU','BRA','BGR','CPV',
+         WHEN carrier_flag IN ('ALB','DZA','AGO','AIA','ARG','AUS','AZE','BGD','BEL','BMU','BRA','BGR','CPV',
             'CMR','CAN','CHL','HKG','TWN','COL','COD','CRI','HRV','CUB','DNK','DJI','ECU',
             'EGY','ERI','EST','ETH','FJI','FIN','FRA','GMB','DEU','GHA','GRC','GRL','GRD',
             'GTM','GUY','ISL','IND','IDN','IRN','IRQ','IRL','ISR','ITA','JPN','JOR','KAZ',
@@ -578,7 +579,7 @@ transshipment_feature AS (
          WHEN neighbor_label = 'trawlers' THEN 'trawlers'
          WHEN neighbor_label = 'trollers' THEN 'trollers'
          WHEN neighbor_label = 'driftnets' THEN 'driftnets'
-         WHEN neighbor_label IN ('purse_seines', 'tuna_purse_seines') THEN 'purse_seine'
+         WHEN neighbor_label IN ('purse_seines', 'tuna_purse_seines', 'other_purse_seines') THEN 'purse_seine'
          WHEN neighbor_label = 'set_gillnets' THEN 'set_gillnet'
          WHEN neighbor_label = 'squid_jigger' THEN 'squid_jigger'
          WHEN neighbor_label = 'pole_and_line' THEN 'pole_and_line'
