@@ -1,5 +1,6 @@
 #standardSQL
 
+-- upload port_risk.csv to a directory `gfwanalysis.qualtrics_survey.port_risk`
 
 --SET your date minimum of interest
 CREATE TEMP FUNCTION minimum() AS (TIMESTAMP("2012-01-01"));
