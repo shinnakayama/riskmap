@@ -301,16 +301,16 @@ port_event_vessel_info2 AS (
    SELECT
       * EXCEPT(vessel_class),
    CASE
-      WHEN neighbor_label = 'trawlers' THEN 'trawlers'
-      WHEN neighbor_label = 'trollers' THEN 'trollers'
-      WHEN neighbor_label = 'driftnets' THEN 'driftnets'
-      WHEN neighbor_label IN ('purse_seines', 'tuna_purse_seines', 'other_purse_seine') THEN 'purse_seine'
-      WHEN neighbor_label = 'set_gillnets' THEN 'set_gillnet'
-      WHEN neighbor_label = 'squid_jigger' THEN 'squid_jigger'
-      WHEN neighbor_label = 'pole_and_line' THEN 'pole_and_line'
-      WHEN neighbor_label = 'set_longlines' THEN 'set_longline'
-      WHEN neighbor_label = 'pots_and_traps' THEN 'pots_and_traps'
-      WHEN neighbor_label = 'drifting_longlines' THEN 'drifting_longline'
+      WHEN vessel_class = 'trawlers' THEN 'trawlers'
+      WHEN vessel_class = 'trollers' THEN 'trollers'
+      WHEN vessel_class = 'driftnets' THEN 'driftnets'
+      WHEN vessel_class IN ('purse_seines', 'tuna_purse_seines', 'other_purse_seine') THEN 'purse_seine'
+      WHEN vessel_class = 'set_gillnets' THEN 'set_gillnet'
+      WHEN vessel_class = 'squid_jigger' THEN 'squid_jigger'
+      WHEN vessel_class = 'pole_and_line' THEN 'pole_and_line'
+      WHEN vessel_class = 'set_longlines' THEN 'set_longline'
+      WHEN vessel_class = 'pots_and_traps' THEN 'pots_and_traps'
+      WHEN vessel_class = 'drifting_longlines' THEN 'drifting_longline'
       ELSE NULL
    END AS vessel_class
    FROM port_event_vessel_info
