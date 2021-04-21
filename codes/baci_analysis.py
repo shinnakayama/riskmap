@@ -8,12 +8,10 @@ import arviz as az
 import patsy
 import theano.tensor as tt
 
-# var_name = sys.argv[1]
-
 
 #----------------------------
 # load PSMA country data
-country = pd.read_csv('data/psma/Updated_PSMA_dates_27 JAN 2021.csv')
+country = pd.read_csv('Updated_PSMA_dates_27 JAN 2021.csv')
 country.dropna(axis=0, how='all', inplace=True)
 country = country[country.Country != 'European Union'].copy()
 country = country[country.Entry_into_force_date.notnull()].copy()
@@ -31,8 +29,8 @@ psma_party2017 = country.loc[np.array(in2017)==1, 'iso3']
 
 
 #-----------------------------
-# load port visit data
-data = pd.read_csv('data/psma/port_visit.csv')
+# output of `port_visit.sql`
+data = pd.read_csv('port_visit.csv')
 
 
 # remove countries that ratified PSMA in 2017
@@ -46,7 +44,8 @@ foo = foo[foo.vessel_class.notnull()]
 
 # territories and their sovereign nations
 # queried from GFW on March 29, 2021
-eez = pd.read_csv('data/port_stop/eez_info.csv')
+# `world-fishing-827.gfw_research.eez_info
+eez = pd.read_csv('eez_info.csv')
 eez = eez[eez.eez_type=='200NM']
 eez = eez[eez.territory1_iso3 != eez.sovereign1_iso3]
 pair = eez[['territory1_iso3', 'sovereign1_iso3']].drop_duplicates()
@@ -74,7 +73,7 @@ fishing_gear = ['trollers', 'trawlers', 'squid_jigger', 'set_longlines', 'set_gi
 all_class = fishing_gear + ['bunker', 'cargo', 'specialized_reefer', 'tanker']
 
 
-var_name = 'encountered'
+var_name = 'fishing_gear'
 
 
 # each vessel class
