@@ -7,7 +7,8 @@
 - `port_stop_duration.sql`: query for port stop duration in GFW data
 - `at_sea_analysis.py`: XGBoost and SHAP analysis for risk of fishing trips
 - `transshipment_analysis.py`: XGBoost and SHAP analysis for risk of trips by carrier vessels
-
+- `analyze_port_stop_duration.r`: linear mixed model on port stop duration by flag groups / gear type 
+- `
 
 ## data
 - `port_risk.csv`: port risk assessment
