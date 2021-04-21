@@ -8,7 +8,7 @@ import scipy
 import datatable as dt
 
 #________________________________
-# run fishing_trips.sql and save as fishing_trips.csv
+# output of fishing_trips.sql 
 data = dt.fread('fishing_trips.csv')
 
 #________________________________
