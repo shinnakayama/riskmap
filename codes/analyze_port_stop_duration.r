@@ -2,20 +2,22 @@ library(lme4)
 library(ggplot2)
 library(plyr)
 
-data <- read.csv('data/port_stop/port_stop.csv')
+# output of query 'port_stop_duration.sql'
+data <- read.csv('port_stop_duration.csv')
 
 data <- data[!is.na(data$flag),]
 data <- data[!is.na(data$vessel_class),]
 data <- data[!is.na(data$port_iso3),]
 
-
+# list of sovereign - territory pairs
 # queried from GFW on March 29, 2021
-eez <- read.csv('data/port_stop/eez_info.csv')
+# `world-fishing-827.gfw_research.eez_info`
+eez <- read.csv('eez_info.csv')
 eez <- eez[eez$eez_type=='200NM',]
 eez <- eez[eez$territory1_iso3 != eez$sovereign1_iso3,]
 pair <- unique(eez[, c('territory1_iso3', 'sovereign1_iso3')])
-pair <- rbind(pair, c('MAC', 'CHN'))
-pair <- rbind(pair, c('HKG', 'CHN'))
+pair <- rbind(pair, c('MAC', 'CHN'))    # add Macao to China
+pair <- rbind(pair, c('HKG', 'CHN'))    # add Hong Kong to China
 
 
 # add sovereign nation to vessel flag and port
@@ -31,7 +33,7 @@ for(i in 1:nrow(pair)) {
 data <- data[data$flag_x != data$port_iso3_x,]
 
 
-# add flag group
+# add flag group by Ford and Wilcox
 group1 <- c('ATG','BRB','CYM','LBR','VCT','VUT')
 group2 <- c('BHS','BHR','BLZ','BOL','BRN','KHM','CYP','GNQ','GAB','GEO','HND','KIR','MDG','MLT',
     'MHL','PAN','PRT','KNA','WSM','SLE','LKA','TON','TZA')
@@ -54,16 +56,6 @@ data$flag_group[data$flag %in% group3] <- 'group3'
 
 # remove port stop duration < 60 min
 data <- data[data$duration_min >= 60,]
-
-
-# remove combo that has n_stops < 10
-# bar <- ddply(data, .(vessel_class, flag_group), summarize, n_stops=length(duration_min))
-# bar <- bar[order(bar$n_stops, decreasing=TRUE),]
-# bar <- bar[bar$n_stop >= 10,]
-# bar$flag_gear <- paste(bar$flag_group, bar$vessel_class)
-
-# data$flag_gear <- paste(data$flag_group, data$vessel_class)
-# data <- data[data$flag_gear %in% bar$flag_gear,]
 
 
 # model
@@ -158,16 +150,3 @@ p <- ggplot(aes(x=flag, y=mean), data=c1) +
 
 ggsave('plots/port_stop/gear_foreign.pdf', p, height=2.5, width=3,  useDingbats=FALSE)
 
-
-
-
-#-------------------------
-# median hours by flag group x gear type
-library(plyr)
-
-bar <- ddply(data, .(vessel_class, flag_group), summarize,
-   n_stops=length(duration_min),
-   median_h=median(duration_min/60),
-   q1=quantile(duration_min/60, probs=0.25),
-   q3=quantile(duration_min/60, probs=0.75))
-write.csv(bar[order(bar$median_h),], 'data/port_stop/median.csv', row.names=FALSE)
