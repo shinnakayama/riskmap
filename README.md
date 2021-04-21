@@ -5,10 +5,13 @@
 - `transshipment_trips.sql`: query for trips by carrier vessels in GFW data
 - `transshipment_loitering.sql`: query for GFW data for trips by carrier vessels with loitering
 - `port_stop_duration.sql`: query for port stop duration in GFW data
+- `port_visit.sql`: query for port visit for PSMA analysis
+
 - `at_sea_analysis.py`: XGBoost and SHAP analysis for risk of fishing trips
 - `transshipment_analysis.py`: XGBoost and SHAP analysis for risk of trips by carrier vessels
 - `analyze_port_stop_duration.r`: linear mixed model on port stop duration by flag groups / gear type 
-- `
+- `baci_analysis.py`: PSMA analysis
+
 
 ## data
 - `port_risk.csv`: port risk assessment
