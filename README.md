@@ -1,10 +1,10 @@
 # Risk mapping
 
 ## codes
-- `fishing_trips.sql`: query for fishing trips in GFW data
-- `transshipment_trips.sql`: query for trips by carrier vessels in GFW data
-- `transshipment_loitering.sql`: query for GFW data for trips by carrier vessels with loitering
-- `port_stop_duration.sql`: query for port stop duration in GFW data
+- `fishing_trips.sql`: query for fishing trips in GFW datasets
+- `transshipment_trips.sql`: query for trips by carrier vessels in GFW datasets
+- `transshipment_loitering.sql`: query for trips by carrier vessels with loitering in GFW datasets
+- `port_stop_duration.sql`: query for port stop duration in GFW datasets
 - `port_visit.sql`: query for port visit for PSMA analysis
 
 - `at_sea_analysis.py`: XGBoost and SHAP analysis for risk of fishing trips
