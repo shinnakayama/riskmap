@@ -7,17 +7,18 @@ import itertools
 import scipy
 import datatable as dt
 
-#________________________________
+
 # output of fishing_trips.sql 
 data = dt.fread('fishing_trips.csv')
 
-#________________________________
+
 # trips with IUU flag, gear, time at sea
 all = data.copy()
 del data
 all = all[dt.f.flag_group != '', :]
 all = all[dt.f.vessel_class != '', :]
 all = all[dt.f.time_at_sea != '', :]
+
 
 # subset of data with port risk assessment
 all = all.to_pandas()
@@ -33,6 +34,7 @@ obs['risk_score'] = 1/3 * obs.iuu_low_to + 2/3 * obs.iuu_med_to + obs.iuu_high_t
 ## obs['risk_score'] = 1/3 * obs.la_low_to + 2/3 * obs.la_med_to + obs.la_high_to - obs.la_no_to
 
 obs['type'] = 'obs'
+
 
 # input for the model to predict missing port risk score
 x_obs = pd.get_dummies(obs[['flag_group', 'vessel_class', 'time_at_sea']])
@@ -51,8 +53,9 @@ bst = xgb.train(params=params, dtrain=dtrain, num_boost_round=n_trees, evals=[(d
     verbose_eval=10, evals_result=evals_result)
 
 
-#________________________________________
+#-----------------------------
 # prediction error
+#-----------------------------
 x = xgb.DMatrix(x_obs)
 y_pred = bst.predict(x)
 
@@ -62,15 +65,23 @@ foo['risk_score'] = y_pred
 threshold = [0,2]
 foo['risk_class'] = [0 if x < threshold[0] else 1 if x < threshold[1] else 2 for x in foo.risk_score]
 
+foo.to_csv('fishing_iuu_pred.csv', index=False)
+
+# for labor abuse,
+# foo.to_csv('fishing_la_pred.csv', index=False)
 
 # observation
 foo = obs[['gfw_trip_id', 'ssvid', 'trip_start', 'trip_end', 'risk_score']].copy()
 foo['risk_class'] = [0 if x < threshold[0] else 1 if x < threshold[1] else 2 for x in foo.risk_score]
 
+foo.to_csv('fishing_iuu_obs.csv', index=False)
 
-#______________________________________
+# for labor abuse,
+# foo.to_csv('fishing_la_obs.csv', index=False)
+
+#-------------------
 # predict
-
+#-------------------
 # data
 pred = all.drop(obs.index)
 pred = pred[pred.vessel_class.isin(obs.vessel_class.unique())]
@@ -90,15 +101,20 @@ bar = bar[['gfw_trip_id', 'ssvid', 'trip_start', 'trip_end', 'risk_score', 'type
 # save output for gridding and plotting
 bar['risk_class'] = [0 if x < threshold[0] else 1 if x < threshold[1] else 2 for x in bar.risk_score]
 
+bar.to_csv('fishing_iuu.csv', index=False)
+           
+# for labor abuse,
+# bar.to_csv('fishing_la.csv', index=False)
 
-#________________________________
+
+#-----------------------------
 # SHAP interaction values
-
+#-----------------------------
+           
 explainer = shap.TreeExplainer(bst)
 shap_value = explainer.shap_interaction_values(x_obs)
 
 
-#________________________________
 # feature importance
 
 flag_idx = slice(0,5,1)
@@ -124,7 +140,6 @@ importance['lower'] = foo.abs().quantile(q=0.025, axis=0)
 importance['upper'] = foo.abs().quantile(q=0.975, axis=0)
 
 
-#___________________________
 # effect of features when present
 
 # model baseline
