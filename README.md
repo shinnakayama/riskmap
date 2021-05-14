@@ -10,7 +10,7 @@
 - `at_sea_analysis.py`: XGBoost and SHAP analysis for risk of fishing trips
 - `fishing_bin_iuu.py`, `fishing_bin_la.py`: SQL query to bin the total fishing hours by grid for IUU fishing and labor abuse
 - `plot_fishing_contour.r`: plot the total fishing hour by grid 
-- 
+- `plot_fishing_shap.r`: plot shap importance and effect
 - `transshipment_analysis.py`: XGBoost and SHAP analysis for risk of trips by carrier vessels
 - `analyze_port_stop_duration.r`: linear mixed model on port stop duration by flag groups / gear type 
 - `baci_analysis.py`: PSMA analysis
