@@ -629,6 +629,8 @@ GFW_anchorage AS (
 ),
 
 
+-- this is a table that count of not associated / low risk / medium risk /high risk
+-- for each port
 COS_port AS (
    SELECT
       not_associated,
