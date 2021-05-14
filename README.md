@@ -14,7 +14,6 @@
 
 
 ## data
-- `port_risk.csv`: port risk assessment
 - `c188.csv`: nations with C188
 - `GDP.csv`: GDP by nations
 - `HDI.csv`: HDI by nations
