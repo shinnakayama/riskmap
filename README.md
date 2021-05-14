@@ -19,4 +19,4 @@
 ## data
 - `c188.csv`: list of parties with C188 and dates
 - `Updated_PSMA_dates_27 JAN 2021.csv`: list of PSMA parties and dates 
-- - `pew_port_capacity.csv`: Port capacity collated by PEW (https://www.pewtrusts.org/en/research-and-analysis/data-visualizations/2020/port-activity-study-reveals-potential-for-illegal-fish-to-enter-markets)
+- `pew_port_capacity.csv`: Port capacity collated by PEW (https://www.pewtrusts.org/en/research-and-analysis/data-visualizations/2020/port-activity-study-reveals-potential-for-illegal-fish-to-enter-markets)
