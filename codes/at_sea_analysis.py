@@ -12,7 +12,7 @@ import datatable as dt
 data = dt.fread('fishing_trips.csv')
 
 
-# trips with IUU flag, gear, time at sea
+# trips with flag, gear, time at sea
 all = data.copy()
 del data
 all = all[dt.f.flag_group != '', :]
@@ -139,6 +139,8 @@ importance['se'] = foo.abs().sem(axis=0)
 importance['lower'] = foo.abs().quantile(q=0.025, axis=0)
 importance['upper'] = foo.abs().quantile(q=0.975, axis=0)
 
+importance.to_csv('fishing_iuu_importance.csv')
+
 
 # effect of features when present
 
@@ -239,3 +241,5 @@ combo_effect.index = [combo[x] for x in combo_idx]
 combo_effect.dropna(inplace=True)
 
 effect = pd.concat([solo_effect, combo_effect])
+
+effect.to_csv('fishing_iuu_effect.csv')
